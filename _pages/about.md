@@ -85,7 +85,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/ReRAM-st.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<div style="color:#1E90FF; font-weight: bold;">
+<div style="color:#00008B; font-weight: bold;">
     ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing
 </div>
 
