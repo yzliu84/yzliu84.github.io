@@ -44,6 +44,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
       </div>
     </div>
   </li>
+</ul>
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Publications 
