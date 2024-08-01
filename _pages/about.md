@@ -42,11 +42,13 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Jul. 2024 -- Present, Massachusetts Institute of Technology</strong>, Cambridge, MA, US<br>
+        <strong>Jul. 2024 -- Present, Media Lab,  Massachusetts Institute of Technology</strong>,  Cambridge, MA, US<br>
         <em>Research Assistant</em>, supervisored by Prof. Deblina Sarkar
       </div>
     </div>
   </li>
+  <br />
+  <br />
   <li>
     <div style="display: flex; align-items: center;">
       <!-- 右侧的图像部分 -->
@@ -61,6 +63,8 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
       </div>
     </div>
   </li>
+  <br />
+  <br />
   <li>
     <div style="display: flex; align-items: center;">
       <!-- 右侧的图像部分 -->
@@ -76,7 +80,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
     </div>
   </li>
 </ul>
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
 
 # 📝 Publications 
 
