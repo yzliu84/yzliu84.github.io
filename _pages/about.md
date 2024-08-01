@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an fourth year undergraduate student majoring in <strong>Electronic Science and Technology</strong> in College of Information Science & Electronic Engineering and minoring in <strong>Intensive Training Program of Innovation and Entrepreneurship</strong> in Chu Kochen Honors College, <strong>Zhejiang University</strong>. <br />
+I am a senior year undergraduate student majoring in <strong>Electronic Science and Technology</strong> in College of Information Science & Electronic Engineering and minoring in <strong>Intensive Training Program of Innovation and Entrepreneurship</strong> in Chu Kochen Honors College, <strong>Zhejiang University</strong>. <br />
 
 I am currently a visiting student at <strong>Massachusetts Institute of Technology(MIT)</strong> and research assistant in Nano-Cybernetic Biotrek group in <strong>Media Lab</strong>, supervised by <strong>[Prof. Deblina Sarkar](https://web.mit.edu/deblina-sarkar/)</strong>. Before that, I was honored to be a research assistant in <strong>State Key Laboratory of Brain-Machine Intelligence</strong> in China, supervised by <strong>[Prof. Peng Lin](https://person.zju.edu.cn/en/linpeng)</strong>. I am also advised by [Prof. Liang Zhao](https://scholar.google.com/citations?hl=zh-CN&user=A_g86msAAAAJ&view_op=list_works&sortby=pubdate) and [Prof. Xunzhao Yin](https://person.zju.edu.cn/en/xunzhaoyin) previously.<br />
 
