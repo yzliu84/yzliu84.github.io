@@ -28,8 +28,23 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 # 🔥 News
-- *2024.07*: &nbsp;🎉🎉 A Manuscript is accepted by ICCAD(SRC) 2024. 
+- *2024.07*: &nbsp;🎉🎉 A manuscript is accepted by ICCAD(SRC) 2024. 
 - *2024.07*: &nbsp;I started to work at MIT media lab!
+
+# 📖 Research Experiences
+<ul>
+  <li>
+    <div style="display: flex; align-items: center;">
+      <div style="flex-grow: 1;">
+        <strong>Jun. 2024 -- Present, DeepSeek AI</strong>, Beijing, China<br>
+        <em>AGI Intern</em>, Work on LLM for mathematical reasoning
+      </div>
+      <div>
+        <img src="logo1_url" alt="DeepSeek AI Logo" width="50">
+      </div>
+    </div>
+  </li>
+- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Publications 
 
@@ -51,9 +66,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
