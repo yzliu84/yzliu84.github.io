@@ -82,12 +82,12 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD-SRC 2024</div><img src='images/ReRAM_st.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/ReRAM-st.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing
+**ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing**
 
-**Yize Liu**, Zhichu Ren, Liang Zhao</br>
+**Yize Liu**, Zhichu Ren, Liang Zhao 
 **2024 ACM/IEEE International Conference on Computer-Aided Design**,Student Research Competition
 - ReRAM-assisted accelerator as a brain-inspired architecture designed for edge AI. 
 </div>
