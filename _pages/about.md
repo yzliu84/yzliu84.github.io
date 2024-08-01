@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an third year undergraduate student majoring in <strong>Electronic Science and Technology</strong> in College of Information Science & Electronic Engineering and minoring in <strong>Intensive Training Program of Innovation and Entrepreneurship</strong> in Chu Kochen Honors College, <strong>Zhejiang University</strong>. <br />
+I am an fourth year undergraduate student majoring in <strong>Electronic Science and Technology</strong> in College of Information Science & Electronic Engineering and minoring in <strong>Intensive Training Program of Innovation and Entrepreneurship</strong> in Chu Kochen Honors College, <strong>Zhejiang University</strong>. <br />
 
 I am currently a visiting student at <strong>Massachusetts Institute of Technology(MIT)</strong> and research assistant in Nano-Cybernetic Biotrek group in <strong>Media Lab</strong>, supervised by <strong>[Prof. Deblina Sarkar](https://web.mit.edu/deblina-sarkar/)<strong>. Before that, I was honored to be a research assistant in <strong>State Key Laboratory of Brain-Machine Intelligence</strong> in China, supervised by <strong>[Prof. Peng Lin](https://person.zju.edu.cn/en/linpeng)</strong>. I am also advised by [Prof. Liang Zhao](https://scholar.google.com/citations?hl=zh-CN&user=A_g86msAAAAJ&view_op=list_works&sortby=pubdate) and [Prof. Xunzhao Yin](https://person.zju.edu.cn/en/xunzhaoyin) previously.<br />
 
@@ -35,12 +35,15 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 <ul>
   <li>
     <div style="display: flex; align-items: center;">
-      <div style="flex-grow: 1;">
-        <strong>Jun. 2024 -- Present, DeepSeek AI</strong>, Beijing, China<br>
-        <em>AGI Intern</em>, Work on LLM for mathematical reasoning
-      </div>
+      <!-- 右侧的图像部分 -->
       <div>
         <img src="logo1_url" alt="DeepSeek AI Logo" width="50">
+      </div>
+
+      <!-- 左侧的文本部分 -->
+      <div style="flex-grow: 1; margin-left: 10px;">
+        <strong>Jun. 2024 -- Present, DeepSeek AI</strong>, Beijing, China<br>
+        <em>AGI Intern</em>, Work on LLM for mathematical reasoning
       </div>
     </div>
   </li>
