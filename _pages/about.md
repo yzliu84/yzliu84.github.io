@@ -58,7 +58,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Jun. 2023 -- Present, State Key Laboratory of Brain-Machine Intelligence</strong>, Hangzhou, China<br>
+        <strong>Jun. 2023 -- Present, State Key Laboratory of Brain-Machine Intelligence </strong>,  Hangzhou, China<br>
         <em>Research Assistant</em>, supervisored by Prof. Peng Lin
       </div>
     </div>
@@ -74,7 +74,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Apr. 2022 -- Jun,2023, Institute of Integrated Circuit Pilot Technology</strong>, Hangzhou, China<br>
+        <strong>Apr. 2022 -- Jun,2023, Institute of Integrated Circuit Pilot Technology,  Zhejiang University</strong>, Hangzhou, China<br>
         <em>Research Assistant</em>, supervisored by Prof. Liang Zhao and Prof. Xunzhao Yin
       </div>
     </div>
