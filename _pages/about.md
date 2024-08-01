@@ -37,13 +37,41 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
     <div style="display: flex; align-items: center;">
       <!-- 右侧的图像部分 -->
       <div>
-        <img src="logo1_url" alt="DeepSeek AI Logo" width="50">
+        <img src="images/mit_logo.svg" alt="MIT Logo" width="50">
       </div>
 
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Jun. 2024 -- Present, DeepSeek AI</strong>, Beijing, China<br>
-        <em>AGI Intern</em>, Work on LLM for mathematical reasoning
+        <strong>Jul. 2024 -- Present, Massachusetts Institute of Technology</strong>, Cambridge, MA, US<br>
+        <em>Research Assistant</em>, supervisored by Prof. Deblina Sarkar
+      </div>
+    </div>
+  </li>
+  <li>
+    <div style="display: flex; align-items: center;">
+      <!-- 右侧的图像部分 -->
+      <div>
+        <img src="images/zju_logo.png" alt="ZJU Logo" width="50">
+      </div>
+
+      <!-- 左侧的文本部分 -->
+      <div style="flex-grow: 1; margin-left: 10px;">
+        <strong>Jun. 2023 -- Present, State Key Laboratory of Brain-Machine Intelligence</strong>, Hangzhou, China<br>
+        <em>Research Assistant</em>, supervisored by Prof. Peng Lin
+      </div>
+    </div>
+  </li>
+  <li>
+    <div style="display: flex; align-items: center;">
+      <!-- 右侧的图像部分 -->
+      <div>
+        <img src="images/zju_logo.png" alt="ZJU Logo" width="50">
+      </div>
+
+      <!-- 左侧的文本部分 -->
+      <div style="flex-grow: 1; margin-left: 10px;">
+        <strong>Apr. 2022 -- Jun,2023, Institute of Integrated Circuit Pilot Technology</strong>, Hangzhou, China<br>
+        <em>Research Assistant</em>, supervisored by Prof. Liang Zhao and Prof. Xunzhao Yin
       </div>
     </div>
   </li>
