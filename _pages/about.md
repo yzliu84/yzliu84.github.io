@@ -48,7 +48,6 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
     </div>
   </li>
   <br />
-  <br />
   <li>
     <div style="display: flex; align-items: center;">
       <!-- 右侧的图像部分 -->
@@ -63,7 +62,6 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
       </div>
     </div>
   </li>
-  <br />
   <br />
   <li>
     <div style="display: flex; align-items: center;">
