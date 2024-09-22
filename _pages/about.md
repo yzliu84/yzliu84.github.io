@@ -23,6 +23,8 @@ I am currently a visiting student at <strong>Massachusetts Institute of Technolo
 
 My research interest lies in <strong>Novel electronic devices</strong>, <strong>Neuromorphic computing</strong> and <strong>Nanotechnology</strong>.<br />
 
+I hope to be inspired by the human brain, refer to the neuronal connections and working modes of the human brain, and the interactions between the functional areas of the human brain to build a "silicon brain". I hope to build a stable, robust, large-scale human brain-like hardware and software system to achieve general artificial intelligence, including but not limited to the application of pulse neural networks, CMOS, and new neuromorphic devices (RRAM, ECRAM, FeFET, etc.). Not only that, I also hope that such a system can be combined with biology to play a role in neural regulation, brain-computer interaction, and understanding the functional principles of the brain.
+
 Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
@@ -96,11 +98,12 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.05* College Shannon Scholarships. 
+- *2023.10* China Optics Valley Scholarship.
+- *2023.10* University-level Third Prize Scholarship.
+- *2023.07* Gold Award (Province) for the China International College Students’ Innovation Competition.
 
 
 
