@@ -7,17 +7,59 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<nav>
-  <ul>
-    <li><a href="/#about-me">About Me</a></li>
-    <li><a href="/#-news">News</a></li>
-    <li><a href="/#-educations">Research Experience</a></li>
-    <li><a href="/#-publications">Publications</a></li>
-    <li><a href="/#-honors-and-awards">Honors and Awards</a></li>
-    <li><a href="/#Research-Projects">Research Projects</a></li>
-    <li><a href="/#-internships">Extracurricular Project</a></li>
-  </ul>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with Anchor Links</title>
+    <style>
+        /* 固定导航栏 */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* 内容部分 */
+        section {
+            padding: 100px 20px;
+            margin-top: 50px; /* 留出空间避免内容被固定导航栏遮挡 */
+        }
+
+        /* 平滑滚动 */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="/#about-me">About Me</a></li>
+            <li><a href="/#-news">News</a></li>
+            <li><a href="/#-educations">Research Experience</a></li>
+            <li><a href="/#-publications">Publications</a></li>
+            <li><a href="/#-honors-and-awards">Honors and Awards</a></li>
+            <li><a href="/#research-projects">Research Projects</a></li>
+            <li><a href="/#-internships">Extracurricular Project</a></li>
+        </ul>
+    </nav>
 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
