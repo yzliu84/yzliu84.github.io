@@ -22,24 +22,20 @@ redirect_from:
             background-color: #333;
             padding: 10px;
         }
-
         nav ul {
             list-style: none;
             display: flex;
             justify-content: space-around;
         }
-
         nav ul li a {
             color: white;
             text-decoration: none;
         }
-
         /* 内容部分 */
         section {
             padding: 100px 20px;
             margin-top: 50px; /* 留出空间避免内容被固定导航栏遮挡 */
         }
-
         /* 平滑滚动 */
         html {
             scroll-behavior: smooth;
@@ -47,7 +43,6 @@ redirect_from:
     </style>
 </head>
 <body>
-
     <!-- 导航栏 -->
     <nav>
         <ul>
