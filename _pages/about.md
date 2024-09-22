@@ -16,7 +16,7 @@ I am currently a visiting student at <strong>Massachusetts Institute of Technolo
 
 My research interest lies in <strong>Novel electronic devices</strong>, <strong>Neuromorphic computing</strong> and <strong>Nanotechnology</strong>.<br />
 
-I hope to be inspired by the human brain, refer to the neuronal connections and working modes of the human brain, and the interactions between the functional areas of the human brain to build a "silicon brain". I hope to build a stable, robust, large-scale human brain-like hardware and software system to achieve general artificial intelligence, including but not limited to the application of pulse neural networks, CMOS, and new neuromorphic devices (RRAM, ECRAM, FeFET, etc.). Not only that, I also hope that such a system can be combined with biology to play a role in neural regulation, brain-computer interaction, and understanding the functional principles of the brain.
+I aim to draw inspiration from the human brain, specifically its neuronal connections, operational modes, and interactions between functional regions, to create a 'silicon brain.' My goal is to develop a stable, robust, low-power and large-scale hardware-software system modeled after the human brain to achieve general artificial intelligence. This includes, but is not limited to, leveraging spiking neural networks, CMOS technology, and novel neuromorphic devices such as RRAM, ECRAM, and FeFET. Furthermore, I aspire to integrate this system with biological elements, enabling advancements in neural regulation, brain-computer interfaces, robots control and a deeper understanding of the brain's functional principles.
 
 Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
