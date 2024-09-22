@@ -98,7 +98,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 </div>
 </div>
 
-<h2 id="about-me">Research Projects</h2>
+<h2 id="Research-Projects">Research Projects</h2>
 # 🎖 Honors and Awards
 - *2024.05* College Shannon Scholarships. 
 - *2023.10* China Optics Valley Scholarship.
