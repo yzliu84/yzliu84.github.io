@@ -7,6 +7,17 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<nav>
+  <ul>
+    <li><a href="/#about-me">About Me</a></li>
+    <li><a href="/#-news">News</a></li>
+    <li><a href="/#-educations">Research Experience</a></li>
+    <li><a href="/#-publications">Publications</a></li>
+    <li><a href="/#-honors-and-awards">Honors and Awards</a></li>
+    <li><a href="/#Research-Projects">Research Projects</a></li>
+    <li><a href="/#-internships">Extracurricular Project</a></li>
+  </ul>
+</nav>
 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
