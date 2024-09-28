@@ -101,14 +101,13 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 # 💬 Research Projects
-- <div class='paper-box'><div class='paper-box-image'><img src='images/chip.jpg' alt="sym" width="100%"></div></div>
+- <div class='paper-box'><div class='paper-box-image'><img src='images/chip.jpg' alt="sym" width="300px" height="300px"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
     Reconfigurable Complex Bio-plausible Spiking Neuron chip 
 </div>
 
-</div>
 </div>
 
 
