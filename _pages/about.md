@@ -1,4 +1,4 @@
-<meta name="google-site-verification" content="QfavTiohMGfBtK2lbzGYrqRKI7wvQZN9kaX7JKijnG0" />
+
 ---
 permalink: /
 title: ""
