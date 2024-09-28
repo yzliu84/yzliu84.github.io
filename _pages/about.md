@@ -127,13 +127,13 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 </head>
 <body>
 
-<div class="container">
-    
+    <div class="container">
+    <img src="image.png" alt="Reconfigurable Complex Bio-plausible Spiking Neuron chip">
     <div class="text">
         <h2>Reconfigurable Complex Bio-plausible Spiking Neuron chip</h2>
         <p>This chip integrates hundreds of reconfigurable complex silicon neuron circuits, designed based on TSMC CMOS process, can generate various complex neuron charging and discharging and pulse behaviors, and is highly configurable. I am using this chip to implement on-chip pulse neural networks, including simulating the learning mode of the brain, and building a highly integrated neuromorphic system with other new devices to achieve fast and low-power computing. This chip can also highly simulate biological neuron behavior, and is expected to achieve brain-machine integration and neural regulation.</p>
     </div>
-</div>
+    </div>
 
 </body>
 </html>
