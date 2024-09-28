@@ -100,7 +100,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 
-# 💬 Research Projects
+# 🔬 Research Projects
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -140,5 +140,5 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 
-# 💻 Extracurricular Projects
+# 🎭 Extracurricular Projects
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
