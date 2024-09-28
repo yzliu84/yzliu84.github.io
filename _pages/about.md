@@ -101,8 +101,16 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 # 💬 Research Projects
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- <div class='paper-box'><div class='paper-box-image'><img src='images/chip.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div style="color:#00008B; font-weight: bold;">
+    Reconfigurable Complex Bio-plausible Spiking Neuron chip 
+</div>
+
+</div>
+</div>
+
 
 # 💻 Extracurricular Projects
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
