@@ -101,14 +101,43 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 # 💬 Research Projects
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>左图右文布局</title>
+    <style>
+        /* Flexbox 布局 */
+        .container {
+            display: flex;
+            align-items: center; /* 垂直居中 */
+            justify-content: flex-start; /* 水平靠左对齐 */
+            padding: 20px;
+        }
+
+        .container img {
+            max-width: 300px; /* 图片的最大宽度 */
+            margin-right: 20px; /* 图片和文本之间的间距 */
+        }
+
+        .text {
+            max-width: 500px; /* 限制文本框的宽度 */
+        }
+    </style>
+</head>
+<body>
+
 <div class="container">
-    <img src="images/chip.jpg" alt="示例图片" width="200px">
+    <img src="image.png" alt="Reconfigurable Complex Bio-plausible Spiking Neuron chip">
     <div class="text">
-        <h2>Reconfigurable Complex Bio-plausible Spiking Neuron chip </h2>
+        <h2>Reconfigurable Complex Bio-plausible Spiking Neuron chip</h2>
         <p>This chip integrates hundreds of reconfigurable complex silicon neuron circuits, designed based on TSMC CMOS process, can generate various complex neuron charging and discharging and pulse behaviors, and is highly configurable. I am using this chip to implement on-chip pulse neural networks, including simulating the learning mode of the brain, and building a highly integrated neuromorphic system with other new devices to achieve fast and low-power computing. This chip can also highly simulate biological neuron behavior, and is expected to achieve brain-machine integration and neural regulation.</p>
     </div>
 </div>
 
+</body>
+</html>
 
 
 <ul>
