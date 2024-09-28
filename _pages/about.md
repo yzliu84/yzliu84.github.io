@@ -101,6 +101,26 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 # 💬 Research Projects
+
+<ul>
+  <li>
+    <div style="display: flex; align-items: center;">
+      <!-- 右侧的图像部分 -->
+      <div>
+        <img src="images/chip.jpg" alt="MIT Logo" width="200">
+      </div>
+
+      <!-- 左侧的文本部分 -->
+      <div style="flex-grow: 1; margin-left: 10px; color:#00008B">
+        <strong>Reconfigurable Complex Bio-plausible Spiking Neuron chip<br>
+      </div>
+      <div style="flex-grow: 1; margin-left: 10px;">
+        This chip integrates hundreds of reconfigurable complex silicon neuron circuits, designed based on TSMC CMOS process, can generate various complex neuron charging and discharging and pulse behaviors, and is highly configurable. I am using this chip to implement on-chip pulse neural networks, including simulating the learning mode of the brain, and building a highly integrated neuromorphic system with other new devices to achieve fast and low-power computing. This chip can also highly simulate biological neuron behavior, and is expected to achieve brain-machine integration and neural regulation.
+      </div>
+    </div>
+  </li>
+</ul>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/chip.jpg' alt="sym" width="200px" height="200px"></div></div>
 <div class='paper-box-text' markdown="1">
 
