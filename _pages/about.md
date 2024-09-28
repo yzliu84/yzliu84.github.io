@@ -109,7 +109,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 </div>
 This chip integrates hundreds of reconfigurable complex silicon neuron circuits, designed based on TSMC CMOS process, can generate various complex neuron charging and discharging and pulse behaviors, and is highly configurable. I am using this chip to implement on-chip pulse neural networks, including simulating the learning mode of the brain, and building a highly integrated neuromorphic system with other new devices to achieve fast and low-power computing. This chip can also highly simulate biological neuron behavior, and is expected to achieve brain-machine integration and neural regulation.
 </div>
-
+</div>
 
 # 💻 Extracurricular Projects
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
