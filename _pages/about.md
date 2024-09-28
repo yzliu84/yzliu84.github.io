@@ -116,12 +116,12 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
         }
 
         .container img {
-            max-width: 300px; /* 图片的最大宽度 */
+            max-width: 250px; /* 图片的最大宽度 */
             margin-right: 20px; /* 图片和文本之间的间距 */
         }
 
         .text {
-            max-width: 500px; /* 限制文本框的宽度 */
+            max-width: 700px; /* 限制文本框的宽度 */
         }
     </style>
 </head>
