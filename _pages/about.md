@@ -107,7 +107,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
     <div style="display: flex; align-items: center;">
       <!-- 右侧的图像部分 -->
       <div>
-        <img src="images/chip.jpg" alt="MIT Logo" width="200">
+        <img src="images/chip.jpg" alt="MIT Logo" width="200px">
       </div>
 
       <!-- 左侧的文本部分 -->
