@@ -144,7 +144,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 Still building...
 
 
-<div class="map-container">
+<div class="map-container" style="width: 500px;">
   <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=00508d&w=a&t=n&d=fpRwPZGVmUyfZYB0X79YKZgraC2Xd88xITIplzf5kjk&co=ffffff&cmo=ebe300&cmn=0ccc0c'></script>
 </div>
 
