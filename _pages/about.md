@@ -141,4 +141,4 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 # 🎭 Extracurricular Projects
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+Still building...
