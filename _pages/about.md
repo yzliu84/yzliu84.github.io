@@ -23,6 +23,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 # 🔥 News
+- *2024.10*: &nbsp;🎉🎉 I was supported by the ICCAD 2024 Student Scholar Program！
 - *2024.07*: &nbsp;🎉🎉 A manuscript is accepted by ICCAD(SRC) 2024. 
 - *2024.07*: &nbsp;I started to work at MIT media lab!
 
@@ -93,6 +94,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 # 🎖 Honors and Awards
+- *2024.10* ICCAD 2024 Student Scholarships. 
 - *2024.05* College Shannon Scholarships. 
 - *2023.10* China Optics Valley Scholarship.
 - *2023.10* University-level Third Prize Scholarship.
