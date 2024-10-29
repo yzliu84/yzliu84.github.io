@@ -113,6 +113,18 @@ Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng 
 
 
 # 🔬 Research Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MIT Media Lab</div><img src='images/MB.jpg' alt="sym" width="250"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div style="color:#00008B; font-weight: bold;">
+    Scalable and Releasable Microbattery Array for Microrobot and Chip Applications
+</div>
+
+I am developing a CMOS-compatible, large-scale microbattery array with the smallest recorded dimensions to date. This battery array is designed to enable synchronized charging and discharging across the array and can be released from the wafer. In the future, it may be used for applications such as bio-neural stimulation, powering microrobots, and supplying power to compact sensor circuits.
+
+</div>
+</div>
+
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
