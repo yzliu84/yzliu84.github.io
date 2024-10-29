@@ -113,100 +113,29 @@ Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng 
 
 
 # 🔬 Research Projects
-<div class='paper-box' style="display: flex; align-items: flex-start; gap: 5px; border: 1px solid #ddd; padding: 10px;">
-    <div class='paper-box-image' style="margin: 0;">
-        <div style="position: relative;">
-            <div class="badge" style="position: absolute; top: 8px; left: 8px; background-color: #00008B; color: white; padding: 2px 5px; font-size: 12px; margin: 0;">MIT Media Lab</div>
-            <img src='images/MB.jpg' alt="sym" width="250" style="display: block; margin: 0;">
-        </div>
-    </div>
-    <div class='paper-box-text' style="max-width: 500px; margin: 0;">
-        <div style="color:#00008B; font-weight: bold; margin: 0;">
-            Scalable and Releasable Microbattery Array for Microrobot and Chip Applications
-        </div>
-        <p style="margin: 5px 0 0 0;">
-            I am developing a CMOS-compatible, large-scale microbattery array with the smallest recorded dimensions to date. This battery array is designed to enable synchronized charging and discharging across the array and can be released from the wafer. In the future, it may be used for applications such as bio-neural stimulation, powering microrobots, and supplying power to compact sensor circuits.
-        </p>
-    </div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MIT Media Lab</div><img src='images/MB.jpg' alt="sym" width="280"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div style="color:#00008B; font-weight: bold;">
+    Scalable and Releasable Microbattery Array for Microrobot and Chip Applications
+</div>
+I am developing a CMOS-compatible, large-scale microbattery array with the smallest recorded dimensions to date. This battery array is designed to enable synchronized charging and discharging across the array and can be released from the wafer. In the future, it may be used for applications such as bio-neural stimulation, powering microrobots, and supplying power to compact sensor circuits.
+
+</div>
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sta. Key Lab. of BMI </div><img src='images/chip.jpg' alt="sym" width="280"></div></div>
+<div class='paper-box-text' markdown="1">
 
-
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>左图右文布局</title>
-    <style>
-        /* Flexbox 布局 */
-        .container {
-            display: flex;
-            align-items: center; /* 垂直居中 */
-            justify-content: flex-start; /* 水平靠左对齐 */
-            padding: 20px;
-        }
-
-        .container img {
-            max-width: 250px; /* 图片的最大宽度 */
-            margin-right: 20px; /* 图片和文本之间的间距 */
-        }
-
-        .text {
-            max-width: 700px; /* 限制文本框的宽度 */
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-    <img src="images/MB.jpg" alt="Reconfigurable Complex Bio-plausible Spiking Neuron chip">
-    <div class="text">
-        <h2>Scalable and Releasable Microbattery Array for Microrobot and Chip Applications</h2>
-        <p>I am developing a CMOS-compatible, large-scale microbattery array with the smallest recorded dimensions to date. This battery array is designed to enable synchronized charging and discharging across the array and can be released from the wafer. In the future, it may be used for applications such as bio-neural stimulation, powering microrobots, and supplying power to compact sensor circuits.(Projuct in MIT Media Lab)</p>
-    </div>
-    </div>
-
-</body>
-</html>
-
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>左图右文布局</title>
-    <style>
-        /* Flexbox 布局 */
-        .container {
-            display: flex;
-            align-items: center; /* 垂直居中 */
-            justify-content: flex-start; /* 水平靠左对齐 */
-            padding: 20px;
-        }
-
-        .container img {
-            max-width: 250px; /* 图片的最大宽度 */
-            margin-right: 20px; /* 图片和文本之间的间距 */
-        }
-
-        .text {
-            max-width: 700px; /* 限制文本框的宽度 */
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-    <img src="images/chip.jpg" alt="Reconfigurable Complex Bio-plausible Spiking Neuron chip">
-    <div class="text">
-        <h2>Reconfigurable Complex Bio-plausible Spiking Neuron chip</h2>
-        <p>This chip integrates hundreds of reconfigurable complex silicon neuron circuits, designed based on TSMC CMOS process, can generate various complex neuron charging and discharging and pulse behaviors, and is highly configurable. I am using this chip to implement on-chip pulse neural networks, including simulating the learning mode of the brain, and building a highly integrated neuromorphic system with other new devices to achieve fast and low-power computing. This chip can also highly simulate biological neuron behavior, and is expected to achieve brain-machine integration and neural regulation.</p>
-    </div>
-    </div>
-
-</body>
-</html>
-
+<div style="color:#00008B; font-weight: bold;">
+    Reconfigurable Complex Bio-plausible Spiking Neuron Chip
+</div>
+This chip integrates hundreds of reconfigurable complex silicon neuron circuits, designed based on TSMC CMOS process, can generate various complex neuron charging and discharging and pulse behaviors, and is highly configurable. I am using this chip to implement on-chip pulse neural networks, including simulating the learning mode of the brain, and building a highly integrated neuromorphic system with other new devices to achieve fast and low-power computing. This chip can also highly simulate biological neuron behavior, and is expected to achieve brain-machine integration and neural regulation.
+</div>
+</div>
 
 
 # 🎭 Extracurricular Projects
