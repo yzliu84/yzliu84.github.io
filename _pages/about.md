@@ -12,7 +12,7 @@ redirect_from:
 
 I am a senior year undergraduate student majoring in <strong>Electronic Science and Technology</strong> in College of Information Science & Electronic Engineering and minoring in <strong>Intensive Training Program of Innovation and Entrepreneurship</strong> in Chu Kochen Honors College(honor), <strong>Zhejiang University</strong>. <br />
 
-I am currently a visiting student at <strong>Massachusetts Institute of Technology(MIT)</strong> and research assistant in Nano-Cybernetic Biotrek group in <strong>Media Lab</strong>, supervised by <strong>[Prof. Deblina Sarkar](https://web.mit.edu/deblina-sarkar/)</strong>. Before that, I was honored to be a research assistant in <strong>State Key Laboratory of Brain-Machine Intelligence</strong> in China, supervised by <strong>[Prof. Peng Lin](https://person.zju.edu.cn/en/linpeng)</strong>. I am also advised by [Prof. Liang Zhao](https://scholar.google.com/citations?hl=zh-CN&user=A_g86msAAAAJ&view_op=list_works&sortby=pubdate) and [Prof. Xunzhao Yin](https://person.zju.edu.cn/en/xunzhaoyin) previously.<br />
+I am currently a visiting student at <strong>Massachusetts Institute of Technology(MIT)</strong> and research assistant in Nano-Cybernetic Biotrek group in <strong>Media Lab</strong>, supervised by <strong>[Prof. Deblina Sarkar](https://web.mit.edu/deblina-sarkar/)</strong>. Before that, I was honored to be a research assistant in <strong>State Key Laboratory of Brain-Machine Intelligence</strong> in China, supervised by <strong>[Prof. Peng Lin](https://person.zju.edu.cn/en/linpeng)</strong>. I am also advised by <strong>[Prof. Liang Zhao](https://scholar.google.com/citations?hl=zh-CN&user=A_g86msAAAAJ&view_op=list_works&sortby=pubdate)</strong> and [Prof. Xunzhao Yin](https://person.zju.edu.cn/en/xunzhaoyin) previously.<br />
 
 My research interest lies in <strong>Novel electronic devices</strong>, <strong>Neuromorphic computing</strong> and <strong>Nanotechnology</strong>.<br />
 
@@ -78,7 +78,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/ReRAM-st.svg' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD SRC</div><img src='images/ReRAM-st.svg' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
@@ -92,6 +92,18 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 </div>
 </div>
 
+<div style="color:#00008B; font-weight: bold;">
+    ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing
+</div>
+
+<div style="color:#00008B; font-weight: bold;">
+    Bio-plausible Reconfigurable Spiking Neuron for Neuromorphic Computing
+</div>
+<div class='paper-box-text' markdown="1">
+Yu Xiao†, **Yize Liu† (Contribute equally)**, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju
+Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng Lin*, Wei Kong*, Gang Pan*.
+Science Advances. (Under second reviewing)
+</div>
 
 # 🎖 Honors and Awards
 - *2024.10* ICCAD 2024 Student Scholarships. 
@@ -103,6 +115,43 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 # 🔬 Research Projects
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>左图右文布局</title>
+    <style>
+        /* Flexbox 布局 */
+        .container {
+            display: flex;
+            align-items: center; /* 垂直居中 */
+            justify-content: flex-start; /* 水平靠左对齐 */
+            padding: 20px;
+        }
+
+        .container img {
+            max-width: 250px; /* 图片的最大宽度 */
+            margin-right: 20px; /* 图片和文本之间的间距 */
+        }
+
+        .text {
+            max-width: 700px; /* 限制文本框的宽度 */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+    <img src="images/MB.jpg" alt="Reconfigurable Complex Bio-plausible Spiking Neuron chip">
+    <div class="text">
+        <h2>Scalable and Releasable Microbattery Array for Microrobot and Chip Applications</h2>
+        <p>I am developing a CMOS-compatible, large-scale microbattery array with the smallest recorded dimensions to date. This battery array is designed to enable synchronized charging and discharging across the array and can be released from the wafer. In the future, it may be used for applications such as bio-neural stimulation, powering microrobots, and supplying power to compact sensor circuits.(Projuct in MIT Media Lab)</p>
+    </div>
+    </div>
+
+</body>
+</html>
+
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
