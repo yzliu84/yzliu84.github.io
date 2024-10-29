@@ -92,17 +92,15 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 </div>
 </div>
 
-<div style="color:#00008B; font-weight: bold;">
-    ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing
-</div>
+
 
 <div style="color:#00008B; font-weight: bold;">
     Bio-plausible Reconfigurable Spiking Neuron for Neuromorphic Computing
 </div>
 <div class='paper-box-text' markdown="1">
 Yu Xiao†, **Yize Liu† (Contribute equally)**, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju
-Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng Lin*, Wei Kong*, Gang Pan*.
-Science Advances. (Under second reviewing)
+Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng Lin\*, Wei Kong\*, Gang Pan\*.
+**Science Advances**. (Under second reviewing)
 </div>
 
 # 🎖 Honors and Awards
