@@ -113,18 +113,18 @@ Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng 
 
 
 # 🔬 Research Projects
-<div class='paper-box' style="display: flex; align-items: center; gap: 10px;">
+<div class='paper-box' style="display: flex; align-items: center; gap: 10px; border: 1px solid #ddd; padding: 10px;">
     <div class='paper-box-image'>
-        <div>
-            <div class="badge">MIT Media Lab</div>
-            <img src='images/MB.jpg' alt="sym" width="250">
+        <div style="position: relative;">
+            <div class="badge" style="position: absolute; top: 8px; left: 8px; background-color: #00008B; color: white; padding: 2px 5px; font-size: 12px;">MIT Media Lab</div>
+            <img src='images/MB.jpg' alt="sym" width="250" style="display: block;">
         </div>
     </div>
-    <div class='paper-box-text' markdown="1">
+    <div class='paper-box-text' style="max-width: 500px;">
         <div style="color:#00008B; font-weight: bold;">
             Scalable and Releasable Microbattery Array for Microrobot and Chip Applications
         </div>
-        <p style="margin: 0;">
+        <p style="margin: 5px 0;">
             I am developing a CMOS-compatible, large-scale microbattery array with the smallest recorded dimensions to date. This battery array is designed to enable synchronized charging and discharging across the array and can be released from the wafer. In the future, it may be used for applications such as bio-neural stimulation, powering microrobots, and supplying power to compact sensor circuits.
         </p>
     </div>
