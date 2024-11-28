@@ -23,9 +23,10 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 
 # 🔥 News
+- *2024.11*: &nbsp;🎉🎉 A manuscript was accepted by Science Advances!
 - *2024.10*: &nbsp;🎉🎉 I won the First Place award in Student Research Competition @ICCAD 2024！
 - *2024.10*: &nbsp;🎉🎉 I was supported by the ICCAD 2024 Student Scholar Program！
-- *2024.07*: &nbsp;🎉🎉 A manuscript is accepted by ICCAD(SRC) 2024. 
+- *2024.07*: &nbsp;🎉🎉 A manuscript was accepted by ICCAD(SRC) 2024. 
 - *2024.07*: &nbsp;I started to work at MIT media lab!
 
 # 📖 Research Experiences
@@ -101,7 +102,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 <div class='paper-box-text' markdown="1">
 Yu Xiao†, **Yize Liu† (Contribute equally)**, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju
 Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng Lin\*, Wei Kong\*, Gang Pan\*.
-**Science Advances**. (Under second reviewing)
+**Science Advances**. (in press)
 </div>
 
 # 🎖 Honors and Awards
