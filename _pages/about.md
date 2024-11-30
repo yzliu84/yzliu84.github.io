@@ -41,7 +41,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Jul. 2024 -- Present, Media Lab,  Massachusetts Institute of Technology</strong>,  Cambridge, MA, US<br>
-        <em>Research Assistant</em>, supervisored by Prof. Deblina Sarkar
+        <em>Research Assistant</em>, supervised by Prof. Deblina Sarkar
       </div>
     </div>
   </li>
@@ -56,7 +56,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Jun. 2023 -- Jun. 2024, State Key Laboratory of Brain-Machine Intelligence </strong>,  Hangzhou, China<br>
-        <em>Research Assistant</em>, supervisored by Prof. Peng Lin
+        <em>Research Assistant</em>, supervised by Prof. Peng Lin
       </div>
     </div>
   </li>
@@ -71,7 +71,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Apr. 2022 -- Present, Institute of Integrated Circuit Pilot Technology,  Zhejiang University</strong>, Hangzhou, China<br>
-        <em>Research Assistant</em>, supervisored by Prof. Liang Zhao and Prof. Xunzhao Yin
+        <em>Research Assistant</em>, supervised by Prof. Liang Zhao and Prof. Xunzhao Yin
       </div>
     </div>
   </li>
