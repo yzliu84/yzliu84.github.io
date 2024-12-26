@@ -94,16 +94,20 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 </div>
 </div>
 
-
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science Advances</div><img src='images/bu1.png' alt="sym" width="90%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
     Bio-plausible Reconfigurable Spiking Neuron for Neuromorphic Computing
 </div>
-<div class='paper-box-text' markdown="1">
+
 Yu Xiao†, **Yize Liu† (Contribute equally)**, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju
 Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng Lin\*, Wei Kong\*, Gang Pan\*.
 **Science Advances**. (in press)
+
 </div>
+</div>
+
 
 # 🎖 Honors and Awards
 - *2024.10* First Place award in Student Research Competition @ICCAD.
