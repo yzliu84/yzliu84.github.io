@@ -80,7 +80,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD SRC</div><img src='images/ReRAM-st.svg' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD SRC</div><img src='images/lsmtu.svg' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
