@@ -87,7 +87,7 @@ $~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
     ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing
 </div>
 
-**<u>Yize Liu</u/>**, Zhichu Ren, Liang Zhao* 
+**<u>Yize Liu</u>**, Zhichu Ren, Liang Zhao* 
 
 **2024 ACM/IEEE International Conference on Computer-Aided Design**, Student Research Competition
 - ReRAM-assisted accelerator as a brain-inspired architecture designed for edge AI. 
