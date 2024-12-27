@@ -31,6 +31,21 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 # 📖 Research Experiences
 <ul>
+   <li>
+    <div style="display: flex; align-items: center;">
+      <!-- 右侧的图像部分 -->
+      <div>
+        <img src="images/zju_logo.png" alt="ZJU Logo" width="50">
+      </div>
+
+      <!-- 左侧的文本部分 -->
+      <div style="flex-grow: 1; margin-left: 10px;">
+        <strong>Jun. 2023 -- Present, State Key Laboratory of Brain-Machine Intelligence </strong>,  Hangzhou, China<br>
+        <em>Research Assistant</em>, supervised by Prof. Peng Lin
+      </div>
+    </div>
+  </li>
+  <br />
   <li>
     <div style="display: flex; align-items: center;">
       <!-- 右侧的图像部分 -->
@@ -40,7 +55,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Jul. 2024 -- Present, Media Lab,  Massachusetts Institute of Technology</strong>,  Cambridge, MA, US<br>
+        <strong>Jun. 2024 -- Dec. 2024, Media Lab,  Massachusetts Institute of Technology</strong>,  Cambridge, MA, US<br>
         <em>Research Assistant</em>, supervised by Prof. Deblina Sarkar
       </div>
     </div>
@@ -55,22 +70,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Jun. 2023 -- Jun. 2024, State Key Laboratory of Brain-Machine Intelligence </strong>,  Hangzhou, China<br>
-        <em>Research Assistant</em>, supervised by Prof. Peng Lin
-      </div>
-    </div>
-  </li>
-  <br />
-  <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/zju_logo.png" alt="ZJU Logo" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Apr. 2022 -- Present, Institute of Integrated Circuit Pilot Technology,  Zhejiang University</strong>, Hangzhou, China<br>
+        <strong>Jan. 2023 -- Jan. 2024, Institute of Integrated Circuit Pilot Technology,  Zhejiang University</strong>, Hangzhou, China<br>
         <em>Research Assistant</em>, supervised by Prof. Liang Zhao and Prof. Xunzhao Yin
       </div>
     </div>
@@ -87,7 +87,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
     ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing
 </div>
 
-**Yize Liu**, Zhichu Ren, Liang Zhao 
+**Yize Liu**, Zhichu Ren, Liang Zhao* 
 
 **2024 ACM/IEEE International Conference on Computer-Aided Design**, Student Research Competition
 - ReRAM-assisted accelerator as a brain-inspired architecture designed for edge AI. 
