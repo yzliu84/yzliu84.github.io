@@ -14,11 +14,11 @@ I am a senior year undergraduate student majoring in <strong>Electronic Science 
 
 I am currently a visiting student at <strong>Massachusetts Institute of Technology(MIT)</strong> and research assistant in Nano-Cybernetic Biotrek group in <strong>Media Lab</strong>, supervised by <strong>[Prof. Deblina Sarkar](https://web.mit.edu/deblina-sarkar/)</strong>. Before that, I was honored to be a research assistant in <strong>State Key Laboratory of Brain-Machine Intelligence</strong> in China, supervised by <strong>[Prof. Peng Lin](https://person.zju.edu.cn/en/linpeng)</strong>. I am also advised by <strong>[Prof. Liang Zhao](https://scholar.google.com/citations?hl=zh-CN&user=A_g86msAAAAJ&view_op=list_works&sortby=pubdate)</strong> and [Prof. Xunzhao Yin](https://person.zju.edu.cn/en/xunzhaoyin) previously.<br />
 
-My research interest lies in <strong>Novel electronic devices</strong>, <strong>Neuromorphic computing</strong> and <strong>Nanotechnology</strong>.<br />
+My research interest lies in <strong>Integrate circuits architecture, AI hardware/software codesign</strong>, <strong>Neuromorphic computing</strong> and <strong>Nanotechnology</strong>.<br />
 
 I aim to draw inspiration from the human brain, specifically its neuronal connections, operational modes, and interactions between functional regions, to create a 'silicon brain.' My goal is to develop a stable, robust, low-power and large-scale hardware-software system modeled after the human brain to achieve general artificial intelligence. This includes, but is not limited to, leveraging spiking neural networks, CMOS technology, and novel neuromorphic devices such as RRAM, ECRAM, and FeFET. Furthermore, I aspire to integrate this system with biological elements, enabling advancements in neural regulation, brain-computer interfaces, robots control and a deeper understanding of the brain's functional principles.
 
-Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
+Contact me by email <strong>henryL@zju.edu.cn</strong><br />
 
 
 
@@ -40,7 +40,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Jun. 2023 -- Present, State Key Laboratory of Brain-Machine Intelligence </strong>,  Hangzhou, China<br>
+        <strong>Jun. 2023 -- Present, State Key Laboratory of Brain-Machine Intelligence</strong>, Hangzhou, China<br>
         <em>Research Assistant</em>, supervised by Prof. Peng Lin
       </div>
     </div>
@@ -80,7 +80,7 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD SRC</div><img src='images/lsmtu.svg' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/lsmtu.svg' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
@@ -103,7 +103,9 @@ Contact me by email <strong>yzliu84@{mit.edu,outlook.com}</strong><br />
 
 Yu Xiao†, **Yize Liu† (Contribute equally)**, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju
 Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng Lin\*, Wei Kong\*, Gang Pan\*.
-**Science Advances**. (in press)
+
+**Science Advances**. 
+(in press)
 
 </div>
 </div>
