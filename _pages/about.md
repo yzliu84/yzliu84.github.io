@@ -87,7 +87,7 @@ $~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
     ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing
 </div>
 
-<u>**Yize Liu**<u/>, Zhichu Ren, Liang Zhao* 
+**<u>Yize Liu</u/>**, Zhichu Ren, Liang Zhao* 
 
 **2024 ACM/IEEE International Conference on Computer-Aided Design**, Student Research Competition
 - ReRAM-assisted accelerator as a brain-inspired architecture designed for edge AI. 
@@ -101,7 +101,7 @@ $~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
     Bio-plausible Reconfigurable Spiking Neuron for Neuromorphic Computing
 </div>
 
-Yu Xiao†, <u>**Yize Liu† (Contribute equally)**<u/>, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju
+Yu Xiao†, **<u>Yize Liu† (Contribute equally)</u>**, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju
 Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng Lin\*, Wei Kong\*, Gang Pan\*.
 
 **Science Advances**. 
