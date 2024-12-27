@@ -129,7 +129,7 @@ Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng 
 <div style="color:#00008B; font-weight: bold;">
     Scalable and Releasable Microbattery Array for Microrobot and Chip Applications
 </div>
-I am developing a CMOS-compatible, large-scale microbattery array with the smallest recorded dimensions to date. This battery array is designed to enable synchronized charging and discharging across the array and can be released from the wafer. In the future, it may be used for applications such as bio-neural stimulation, powering microrobots, and supplying power to compact sensor circuits.
+This project focuses on developing a CMOS-compatible, large-scale microbattery array with the smallest recorded dimensions to date. This battery array is designed to enable synchronized charging and discharging across the array and can be released from the wafer. In the future, it may be used for applications such as bio-neural stimulation, powering microrobots, and supplying power to compact sensor circuits.
 
 </div>
 </div>
@@ -145,6 +145,15 @@ This chip integrates hundreds of reconfigurable complex silicon neuron circuits,
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Zhejiang Uni.</div><img src='images/rram.jpg' alt="sym" width="280"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div style="color:#00008B; font-weight: bold;">
+   In-memory Integrated Accelerator Based on Novel Memristors.
+</div>
+This project utilizes non-volatile memory devices such as RRAM and FeFETs, exploiting their variable resistance characteristics that mimic neural synapses, to develop large-scale neural network accelerators with both computing and storage functions. These accelerators target applications including, but not limited to, deep artificial neural networks (ANN), spiking neural networks (SNN), and other edge computing applications. Key research areas include high-throughput architecture design, control and read/write methods, and on-chip training techniques tailored to memristors.
+</div>
+</div>
 
 # 🎭 Extracurricular Projects
 Still building...
