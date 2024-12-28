@@ -80,7 +80,7 @@ $~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/lsmtu2.svg' alt="sym" width="90%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/lsmtu3.svg' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
