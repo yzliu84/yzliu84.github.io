@@ -125,7 +125,7 @@ Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng 
 # 🔬 Research Projects
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MIT Media Lab</div><img src='images/MB.jpg' alt="sym" width="350"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MIT Media Lab</div><img src='images/MB.jpg' alt="sym" width="280"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
@@ -137,7 +137,7 @@ This project focuses on developing a CMOS-compatible, large-scale microbattery a
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sta. Key Lab. of BMI </div><img src='images/chip.jpg' alt="sym" width="350"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sta. Key Lab. of BMI </div><img src='images/chip.jpg' alt="sym" width="280"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
@@ -147,7 +147,7 @@ This chip integrates hundreds of reconfigurable complex silicon neuron circuits,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Zhejiang Uni.</div><img src='images/rram.jpg' alt="sym" width="350"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Zhejiang Uni.</div><img src='images/rram.jpg' alt="sym" width="280"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
