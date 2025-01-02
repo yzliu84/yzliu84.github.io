@@ -102,7 +102,7 @@ $~~~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
 </div>
 
 Yu Xiao†, **<u>Yize Liu† (Contribute equally)</u>**, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju
-Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, Peng Lin\*, Wei Kong\*, Gang Pan\*.
+Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, [Peng Lin\*](https://person.zju.edu.cn/en/linpeng), [Wei Kong\*](https://www.konglab-westlake.com/about-5), [Gang Pan\*](https://person.zju.edu.cn/en/gpan).
 
 **Science Advances**. 
 (in press)
