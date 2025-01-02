@@ -117,7 +117,6 @@ Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, Qian Zheng, Huajin Tang, [Peng
 - *2024.10* ICCAD 2024 Student Scholarships. 
 - *2024.05* College Shannon Scholarship. 
 - *2023.10* China Optics Valley Scholarship.
-- *2023.10* University-level Third Prize Scholarship.
 - *2023.07* Gold Award (Province) for the China International College Students’ Innovation Competition.
 
 
