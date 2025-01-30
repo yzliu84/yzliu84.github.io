@@ -116,7 +116,7 @@ Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, [Qian Zheng](https://person.zj
 - *2024.10* First Place award in Student Research Competition @ICCAD.
 
 <div style="text-align:center">
-  <img src='images/iccad.png' alt="iccad" width="280" />
+  <img src='images/iccad.png' alt="iccad" width="350" />
 </div>
 
 - *2024.10* ICCAD 2024 Student Scholarships.
