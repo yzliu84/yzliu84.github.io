@@ -113,7 +113,7 @@ Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, [Qian Zheng](https://person.zj
 
 # 🎖 Honors and Awards
 - *2024.12* Yuelun Scholarship.
-- *2024.10* First Place award in Student Research Competition @ICCAD.
+- *2024.10* First Place award in [Student Research Competition](https://src.acm.org/) @ICCAD.
 
 <div style="text-align:center">
   <img src='images/iccad.png' alt="iccad" width="350" />
