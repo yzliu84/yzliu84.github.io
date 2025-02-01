@@ -94,7 +94,7 @@ $~~~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science Advances</div><img src='images/bu1.png' alt="sym" width="350"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science Advances</div><img src='images/bu11.png' alt="sym" width="350"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
