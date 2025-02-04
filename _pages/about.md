@@ -114,6 +114,7 @@ Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, [Qian Zheng](https://person.zj
     Variation-resilient Spike-timing-dependent Plasticity in Memristors Using Bursting Neuron Circuit
 </div>
 Yize Liu, Jiayi Zhao, Yu Xiao, Peng Chen*, Haisong Chen, Enhui He, Peng Lin* and Gang Pan*
+
 Under review
 
 # 🎖 Honors and Awards
