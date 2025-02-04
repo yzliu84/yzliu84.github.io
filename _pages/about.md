@@ -80,20 +80,6 @@ $~~~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/lsmtu3.svg' alt="sym" width="350"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div style="color:#00008B; font-weight: bold;">
-    ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing
-</div>
-
-**<u>Yize Liu</u>**, Zhichu Ren, Liang Zhao* 
-
-**2024 ACM/IEEE International Conference on Computer-Aided Design**, Student Research Competition
-- ReRAM-assisted accelerator as a brain-inspired architecture designed for edge AI. 
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science Advances</div><img src='images/bu11.png' alt="sym" width="350"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -110,6 +96,22 @@ Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, [Qian Zheng](https://person.zj
 
 </div>
 </div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/lsmtu3.svg' alt="sym" width="350"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div style="color:#00008B; font-weight: bold;">
+    ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing
+</div>
+
+**<u>Yize Liu</u>**, Zhichu Ren, Liang Zhao* 
+
+**2024 ACM/IEEE International Conference on Computer-Aided Design**, Student Research Competition
+- ReRAM-assisted accelerator as a brain-inspired architecture designed for edge AI. 
+</div>
+</div>
+
 
 <div style="color:#00008B; font-weight: bold;">
     Variation-resilient Spike-timing-dependent Plasticity in Memristors Using Bursting Neuron Circuit
