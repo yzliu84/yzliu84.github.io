@@ -20,7 +20,7 @@ $~~~~$I aim to draw inspiration from the human brain, specifically its neuronal 
 
 $~~~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
 
-
+$~~~~$You can find my [CV](docs/CV_YizeLiu.pdf) here.
 
 # 🔥 News
 - *2024.11*: &nbsp;🎉🎉 A manuscript was accepted by Science Advances!
@@ -105,7 +105,7 @@ Yu Xiao†, **<u>Yize Liu† (Contribute equally)</u>**, Bihua Zhang†, Peng Ch
 Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, [Qian Zheng](https://person.zju.edu.cn/en/zq#0), [Huajin Tang](https://person.zju.edu.cn/en/0018196), [Peng Lin\*](https://person.zju.edu.cn/en/linpeng), [Wei Kong\*](https://www.konglab-westlake.com/about-5), [Gang Pan\*](https://person.zju.edu.cn/en/gpan).
 
 **Science Advances**. 
-(in press)
+[Website](), [PDF]()
 
 </div>
 </div>
