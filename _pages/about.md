@@ -20,8 +20,8 @@ $~~~~$I aim to draw inspiration from the human brain, specifically its neuronal 
 
 $~~~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
 
-$~~~~$You can find my [CV](docs/CV_YizeLiu.pdf) here.
 
+<a href="docs/CV_YizeLiu.pdf">CV</a>
 # 🔥 News
 - *2024.11*: &nbsp;🎉🎉 A manuscript was accepted by Science Advances!
 - *2024.10*: &nbsp;🎉🎉 I won the First Place award in Student Research Competition @ICCAD 2024！
