@@ -89,7 +89,7 @@ $~~~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
 Yu Xiao†, **<u>Yize Liu† (Contribute equally)</u>**, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju
 Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, [Qian Zheng](https://person.zju.edu.cn/en/zq#0), [Huajin Tang](https://person.zju.edu.cn/en/0018196), [Peng Lin\*](https://person.zju.edu.cn/en/linpeng), [Wei Kong\*](https://www.konglab-westlake.com/about-5), [Gang Pan\*](https://person.zju.edu.cn/en/gpan).
 
-**Science Advances**. 11,eadr6733(2025).
+**Science Advances**. 11, eadr6733 (2025).
 
 Find this paper at Science Advances [Website](https://www.science.org/doi/10.1126/sciadv.adr6733).
 
