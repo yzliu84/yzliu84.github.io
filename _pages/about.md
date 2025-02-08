@@ -22,6 +22,7 @@ $~~~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
 
 
 # 🔥 News
+- *2025.02*: &nbsp;🎉🎉 I was admitted to EE PhD program at Stanford University!
 - *2024.11*: &nbsp;🎉🎉 A manuscript was accepted by Science Advances!
 - *2024.10*: &nbsp;🎉🎉 I won the First Place award in Student Research Competition @ICCAD 2024！
 - *2024.10*: &nbsp;🎉🎉 I was supported by the ICCAD 2024 Student Scholar Program！
