@@ -77,7 +77,7 @@ $~~~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science Advances</div><img src='images/bu1.png' alt="sym" width="280"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science Advances</div><img src='images/bu1.png' alt="sym" width="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
@@ -95,7 +95,7 @@ Find this paper at Science Advances [Website](https://www.science.org/doi/10.112
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/lsmtu3.svg' alt="sym" width="280"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/lsmtu3.svg' alt="sym" width="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <div style="color:#00008B; font-weight: bold;">
@@ -105,7 +105,6 @@ Find this paper at Science Advances [Website](https://www.science.org/doi/10.112
 **<u>Yize Liu</u>**, Zhichu Ren, Liang Zhao* 
 
 **2024 ACM/IEEE International Conference on Computer-Aided Design**, Student Research Competition
-- ReRAM-assisted accelerator as a brain-inspired architecture designed for edge AI. 
 </div>
 </div>
 
