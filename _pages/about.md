@@ -16,8 +16,6 @@ $~~~~$I am currently a research assistant at <strong>State Key Laboratory of Bra
 
 $~~~~$My research interest lies in <strong>Integrate circuits architecture, AI hardware/software codesign</strong>, <strong>Neuromorphic computing</strong> and <strong>Nanotechnology</strong>.<br />
 
-$~~~~$I aim to draw inspiration from the human brain, specifically its neuronal connections, operational modes, and interactions between functional regions, to create a 'silicon brain.' My goal is to develop a stable, robust, low-power and large-scale hardware-software system modeled after the human brain to achieve general artificial intelligence. This includes, but is not limited to, leveraging spiking neural networks, CMOS technology, and novel neuromorphic devices such as RRAM, ECRAM, and FeFET. Furthermore, I aspire to integrate this system with biological elements, enabling advancements in neural regulation, brain-computer interfaces, robots control and a deeper understanding of the brain's functional principles.
-
 $~~~~$Contact me by email <strong>henryL@zju.edu.cn</strong>.<br />
 
 
@@ -135,6 +133,8 @@ Under review
 
 
 # 🔬 Research Projects
+
+I aim to draw inspiration from the human brain, specifically its neuronal connections, operational modes, and interactions between functional regions, to create a 'silicon brain.' My goal is to develop a stable, robust, low-power and large-scale hardware-software system modeled after the human brain to achieve general artificial intelligence. This includes, but is not limited to, leveraging spiking neural networks, CMOS technology, and novel neuromorphic devices such as RRAM, ECRAM, and FeFET. Furthermore, I aspire to integrate this system with biological elements, enabling advancements in neural regulation, brain-computer interfaces, robots control and a deeper understanding of the brain's functional principles.
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MIT Media Lab</div><img src='images/MB.jpg' alt="sym" width="280"></div></div>
