@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Yize Liu 刘毅泽"
-  avatar           : "images/head2.jpg"
+  avatar           : "images/head2_new.jpg"
   bio              : "Stanford University"
   location         : "Palo Alto, CA, US"
   employer         :
@@ -40,7 +40,7 @@ author:
   github           : # e.g., "github username"
   google_plus      :
   keybase          :
-  instagram        : "yizeliu84"
+  instagram        : 
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "yize-liu-74a829303"
