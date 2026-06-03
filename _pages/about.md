@@ -81,8 +81,8 @@ $~~~~$Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
 
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Nov. 2025 -- Present, Robust Systems Group, Stanford University</strong>, CA, US<br>
-        <em>Research Assistant</em>, advised by Prof. Subhasish Mitra
+        <strong>Nov. 2025 -- Jun. 2026, Robust Systems Group, Stanford University</strong>, CA, US<br>
+        <em>Research Assistant</em>, supervised by Prof. Subhasish Mitra
       </div>
     </div>
   </li>
