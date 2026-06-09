@@ -306,6 +306,16 @@ a:hover { color: var(--accent-dark); }
   letter-spacing: 0.02em;
 }
 
+/* ---- Fix overlapping anchor hack ----------------------------------------
+   about.md has <span id="about-me">; the theme offsets it with a 10em-tall
+   :before pseudo + negative margins, which bled upward and covered the hero
+   social links (making them unclickable). Replace with scroll-margin-top.   */
+.page__content #about-me {
+  margin-top: 0 !important;
+  scroll-margin-top: 80px;
+}
+.page__content #about-me:before { display: none !important; }
+
 /* ---- Misc ---------------------------------------------------------------- */
 hr { border-color: var(--hairline); }
 ::selection { background: rgba(45, 106, 142, 0.22); }
