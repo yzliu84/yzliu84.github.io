@@ -1,0 +1,208 @@
+/* ==========================================================================
+   Custom redesign — alpine background + frosted-glass, flat & minimal
+   Layered on top of main.css (Minimal Mistakes). Safe to remove this file
+   and its <link> in _includes/head/custom.html to fully revert.
+   ========================================================================== */
+
+:root {
+  --bg-image: url("../../images/bg/alpine_lake.jpg");
+  --accent: #2d6a8e;          /* glacier blue */
+  --accent-dark: #1f4d68;
+  --ink: #2a2f36;             /* primary text */
+  --ink-soft: #5b6470;        /* secondary text */
+  --heading: #1c2530;
+  --panel: rgba(255, 255, 255, 0.74);
+  --panel-solid: rgba(255, 255, 255, 0.92);
+  --hairline: rgba(28, 37, 48, 0.10);
+  --radius: 16px;
+}
+
+/* ---- Fonts ---------------------------------------------------------------- */
+html { font-size: 16px; }
+
+body,
+.page__content p,
+.page__content li,
+.page__content dl,
+.sidebar p,
+.sidebar li,
+.author__urls a,
+.greedy-nav a {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #e9eef2;          /* fallback before image loads */
+  line-height: 1.7;
+  letter-spacing: 0.005em;
+}
+
+/* ---- Fixed alpine background --------------------------------------------- */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+/* cool, airy wash so frosted panels stay legible */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    180deg,
+    rgba(225, 234, 240, 0.30) 0%,
+    rgba(210, 222, 232, 0.45) 45%,
+    rgba(200, 214, 226, 0.62) 100%
+  );
+}
+
+/* ---- Masthead (top nav) — translucent frosted bar ------------------------ */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.55);
+  -webkit-backdrop-filter: saturate(150%) blur(14px);
+  backdrop-filter: saturate(150%) blur(14px);
+  border-bottom: 1px solid var(--hairline);
+  box-shadow: 0 1px 12px rgba(28, 37, 48, 0.05);
+  animation: none;
+}
+.greedy-nav { background: transparent; }
+.greedy-nav a {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  transition: color 0.2s ease;
+}
+.greedy-nav a:hover { color: var(--accent); }
+.greedy-nav .visible-links a:before { background: var(--accent); height: 2px; }
+.masthead__menu-home-item a { font-weight: 600; }
+
+/* ---- Main content as a frosted-glass card -------------------------------- */
+#main {
+  margin-top: 2.5em;
+  margin-bottom: 3em;
+  max-width: 1000px;
+  padding: 0 1em;
+  animation: intro 0.5s both;
+}
+
+/* the card wraps the article; sidebar floats inside on wide screens */
+.page {
+  background: var(--panel);
+  -webkit-backdrop-filter: saturate(160%) blur(20px);
+  backdrop-filter: saturate(160%) blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: var(--radius);
+  box-shadow:
+    0 10px 40px rgba(28, 37, 48, 0.16),
+    0 2px 8px rgba(28, 37, 48, 0.08);
+  padding: 2.6em 2.8em;
+}
+
+.sidebar {
+  background: var(--panel);
+  -webkit-backdrop-filter: saturate(160%) blur(20px);
+  backdrop-filter: saturate(160%) blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: var(--radius);
+  box-shadow:
+    0 10px 40px rgba(28, 37, 48, 0.16),
+    0 2px 8px rgba(28, 37, 48, 0.08);
+  padding: 1.8em 1.4em;
+  opacity: 1 !important;
+}
+
+@media (max-width: 925px) {
+  .page, .sidebar { padding: 1.6em 1.4em; }
+  #main { margin-top: 1.5em; }
+}
+
+/* ---- Author profile (sidebar) -------------------------------------------- */
+.author__avatar img {
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: 0 6px 18px rgba(28, 37, 48, 0.20);
+  border: 3px solid rgba(255, 255, 255, 0.85) !important;
+}
+.sidebar .author__name,
+.author__name {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--heading);
+}
+.author__urls a { color: var(--ink-soft); }
+.author__urls a:hover { color: var(--accent); text-decoration: none; }
+.author__urls .fa,
+.author__urls .fab,
+.author__urls .fas,
+.author__urls .ai { color: var(--accent); }
+
+/* ---- Typography: headings flat & airy ------------------------------------ */
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  color: var(--heading);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+.page__content h1 {
+  font-size: 1.6em;
+  margin-top: 1.6em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--hairline);
+}
+.page__content h1:first-of-type { margin-top: 0.2em; }
+.page__content p,
+.page__content li {
+  font-size: 1em;
+  color: var(--ink);
+}
+
+/* ---- Links --------------------------------------------------------------- */
+a { color: var(--accent); }
+a:hover { color: var(--accent-dark); }
+.page__content a { color: var(--accent); }
+
+/* ---- Publication / paper boxes — clean flat cards ------------------------ */
+.paper-box {
+  border-bottom: none;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  padding: 1.6em 1.6em;
+  margin-bottom: 1.4em;
+  box-shadow: 0 2px 10px rgba(28, 37, 48, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.paper-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(28, 37, 48, 0.12);
+}
+.paper-box .paper-box-image img {
+  box-shadow: 0 4px 14px rgba(28, 37, 48, 0.18) !important;
+  border-radius: 6px;
+}
+.badge {
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-radius: 6px;
+  padding: 0.25em 0.7em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* ---- Misc ---------------------------------------------------------------- */
+hr { border-color: var(--hairline); }
+::selection { background: rgba(45, 106, 142, 0.22); }
