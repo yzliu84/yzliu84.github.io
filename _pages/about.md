@@ -14,7 +14,7 @@ $~~~~$I am a PhD student majoring in ELectrical Engineering at <strong>Stanford 
 
 $~~~~$I got my BS at Zhejiang University, majoring in <strong>Electronic Science and Technology</strong> in College of Information Science & Electronic Engineering and minoring in <strong>Intensive Training Program of Innovation and Entrepreneurship</strong> in Chu Kochen Honors College(honor). <br />
 
-$~~~~$My current research interest lies in <strong> Foundation Model for Robotics, expecially the memory.</strong> Previously I was working on Integrate circuits architecture, AI hardware/software codesign, and 3D Nanotechnology.<br />
+$~~~~$My current research interest lies in <strong> Foundation Model for Robotics, expecially the memory.</strong> Previously I was working on 3D chip architecture, AI hardware/software codesign, Neuromorphic computing and Device fabrication.<br />
 
 $~~~~$Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
 
