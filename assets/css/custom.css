@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Custom redesign — alpine background + frosted-glass, flat & minimal
+   Custom redesign — alpine background, centered hero, single-column, flat.
    Layered on top of main.css (Minimal Mistakes). Safe to remove this file
    and its <link> in _includes/head/custom.html to fully revert.
    ========================================================================== */
@@ -11,10 +11,9 @@
   --ink: #2a2f36;             /* primary text */
   --ink-soft: #5b6470;        /* secondary text */
   --heading: #1c2530;
-  --panel: rgba(255, 255, 255, 0.74);
-  --panel-solid: rgba(255, 255, 255, 0.92);
+  --panel: rgba(255, 255, 255, 0.80);
   --hairline: rgba(28, 37, 48, 0.10);
-  --radius: 16px;
+  --radius: 18px;
 }
 
 /* ---- Fonts ---------------------------------------------------------------- */
@@ -35,16 +34,17 @@ body,
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* main.css sets html{background:#fff}, which would cover the fixed bg layer.
-   Make the root transparent so the alpine background shows through. */
-html { background: transparent !important; background-color: transparent !important; }
 body {
-  background: transparent !important;
   line-height: 1.7;
   letter-spacing: 0.005em;
 }
 
-/* ---- Fixed alpine background --------------------------------------------- */
+/* ---- Fixed alpine background ---------------------------------------------
+   main.css sets html{background:#fff}, which would cover the fixed bg layer.
+   Force the root transparent so the alpine photo shows through.            */
+html { background: transparent !important; background-color: transparent !important; }
+body { background: transparent !important; }
+
 body::before {
   content: "";
   position: fixed;
@@ -53,20 +53,19 @@ body::before {
   background-color: #e9eef2;   /* fallback before image loads */
   background-image: var(--bg-image);
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   background-repeat: no-repeat;
 }
-/* cool, airy wash so frosted panels stay legible */
-body::after {
+body::after {                  /* cool, airy wash for legibility */
   content: "";
   position: fixed;
   inset: 0;
   z-index: -1;
   background: linear-gradient(
     180deg,
-    rgba(225, 234, 240, 0.30) 0%,
-    rgba(210, 222, 232, 0.45) 45%,
-    rgba(200, 214, 226, 0.62) 100%
+    rgba(225, 234, 240, 0.22) 0%,
+    rgba(210, 222, 232, 0.38) 45%,
+    rgba(198, 213, 226, 0.55) 100%
   );
 }
 
@@ -93,67 +92,156 @@ body::after {
 .greedy-nav .visible-links a:before { background: var(--accent); height: 2px; }
 .masthead__menu-home-item a { font-weight: 600; }
 
-/* ---- Main content as a frosted-glass card -------------------------------- */
+/* ==========================================================================
+   LAYOUT — single centered column (overrides the susy sidebar/float grid)
+   ========================================================================== */
 #main {
-  margin-top: 2.5em;
-  margin-bottom: 3em;
-  max-width: 1000px;
-  padding: 0 1em;
+  display: block;
+  max-width: 880px;
+  margin: 2.5em auto 3.5em;
+  padding: 0 1.1em;
   animation: intro 0.5s both;
 }
 
-/* the card wraps the article; sidebar floats inside on wide screens */
-.page {
-  background: var(--panel);
-  -webkit-backdrop-filter: saturate(160%) blur(20px);
-  backdrop-filter: saturate(160%) blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: var(--radius);
-  box-shadow:
-    0 10px 40px rgba(28, 37, 48, 0.16),
-    0 2px 8px rgba(28, 37, 48, 0.08);
-  padding: 2.6em 2.8em;
-}
-
+/* The profile that used to be a left block becomes a centered hero card */
 .sidebar {
+  float: none !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto 1.6em !important;
+  padding: 2.6em 2em 2.2em !important;
+  position: static !important;        /* cancel .sticky */
+  clear: both;
+  opacity: 1 !important;
   background: var(--panel);
   -webkit-backdrop-filter: saturate(160%) blur(20px);
   backdrop-filter: saturate(160%) blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.55);
   border-radius: var(--radius);
-  box-shadow:
-    0 10px 40px rgba(28, 37, 48, 0.16),
-    0 2px 8px rgba(28, 37, 48, 0.08);
-  padding: 1.8em 1.4em;
-  opacity: 1 !important;
+  box-shadow: 0 10px 40px rgba(28, 37, 48, 0.16), 0 2px 8px rgba(28, 37, 48, 0.08);
+  text-align: center;
 }
 
-@media (max-width: 925px) {
-  .page, .sidebar { padding: 1.6em 1.4em; }
-  #main { margin-top: 1.5em; }
+/* The main content as a frosted card below the hero */
+.page {
+  float: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 2.6em 2.8em !important;
+  clear: both;
+  background: var(--panel);
+  -webkit-backdrop-filter: saturate(160%) blur(20px);
+  backdrop-filter: saturate(160%) blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 40px rgba(28, 37, 48, 0.16), 0 2px 8px rgba(28, 37, 48, 0.08);
 }
 
-/* ---- Author profile (sidebar) -------------------------------------------- */
+@media (max-width: 768px) {
+  #main { margin-top: 1.4em; }
+  .sidebar { padding: 2em 1.3em 1.6em !important; }
+  .page { padding: 1.7em 1.4em !important; }
+}
+
+/* ==========================================================================
+   HERO — big centered avatar + name + role + horizontal links
+   ========================================================================== */
+.profile_box {
+  display: block !important;
+  text-align: center;
+}
+
+.author__avatar {
+  display: block !important;
+  width: auto !important;
+  margin: 0 auto 0.9em !important;
+  text-align: center;
+}
 .author__avatar img {
-  border: none !important;
+  width: 200px !important;
+  height: 200px !important;
+  max-width: 200px !important;
+  min-width: 0 !important;
+  object-fit: cover;
+  border-radius: 50%;
   padding: 0 !important;
-  box-shadow: 0 6px 18px rgba(28, 37, 48, 0.20);
-  border: 3px solid rgba(255, 255, 255, 0.85) !important;
+  border: 5px solid rgba(255, 255, 255, 0.92) !important;
+  box-shadow: 0 10px 30px rgba(28, 37, 48, 0.28);
+}
+
+.author__content {
+  display: block !important;
+  width: 100% !important;
+  padding: 0 !important;
+  text-align: center;
+  line-height: 1.4;
 }
 .sidebar .author__name,
 .author__name {
+  font-family: "Inter", sans-serif;
+  font-size: 2.1em !important;
   font-weight: 700;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
   color: var(--heading);
+  margin: 0.1em 0 0.05em !important;
 }
-.author__urls a { color: var(--ink-soft); }
-.author__urls a:hover { color: var(--accent); text-decoration: none; }
-.author__urls .fa,
-.author__urls .fab,
-.author__urls .fas,
-.author__urls .ai { color: var(--accent); }
+.author__bio {
+  margin: 0 0 0.4em !important;
+  font-size: 1.05em;
+  font-weight: 500;
+  color: var(--accent);
+}
 
-/* ---- Typography: headings flat & airy ------------------------------------ */
+.author__urls-wrapper {
+  display: block !important;
+  width: 100%;
+  margin: 0;
+}
+.author__urls-wrapper button { display: none !important; }   /* mobile toggle btn */
+
+/* horizontal, centered link row */
+.author__urls {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.45em 1.4em;
+  position: static !important;
+  margin: 0.6em 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.author__urls:before, .author__urls:after { display: none !important; }
+.author__urls li { white-space: nowrap; margin: 0; }
+/* the first item is the site description sentence — give it its own row */
+.author__urls li:first-child {
+  flex-basis: 100%;
+  white-space: normal;
+  margin: 0 0 0.5em !important;
+  color: var(--ink-soft);
+  font-size: 1.02em;
+}
+.author__urls li:first-child div { margin: 0 !important; }
+.author__urls a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  color: var(--ink-soft);
+  font-size: 0.98em;
+  font-weight: 500;
+  text-decoration: none;
+}
+.author__urls a:hover { color: var(--accent); text-decoration: none; }
+.author__urls .fa, .author__urls .fab, .author__urls .fas, .author__urls .ai {
+  color: var(--accent);
+}
+.author__urls_sm { display: none !important; }
+
+/* ==========================================================================
+   TYPOGRAPHY — flat, airy headings
+   ========================================================================== */
 .page__content h1,
 .page__content h2,
 .page__content h3 {
@@ -162,17 +250,14 @@ body::after {
   letter-spacing: -0.015em;
 }
 .page__content h1 {
-  font-size: 1.6em;
-  margin-top: 1.6em;
+  font-size: 1.55em;
+  margin-top: 1.7em;
   padding-bottom: 0.4em;
   border-bottom: 1px solid var(--hairline);
 }
-.page__content h1:first-of-type { margin-top: 0.2em; }
+.page__content h1:first-of-type { margin-top: 0.3em; }
 .page__content p,
-.page__content li {
-  font-size: 1em;
-  color: var(--ink);
-}
+.page__content li { font-size: 1em; color: var(--ink); }
 
 /* ---- Links --------------------------------------------------------------- */
 a { color: var(--accent); }
@@ -185,7 +270,7 @@ a:hover { color: var(--accent-dark); }
   background: rgba(255, 255, 255, 0.55);
   border: 1px solid var(--hairline);
   border-radius: 12px;
-  padding: 1.6em 1.6em;
+  padding: 1.6em;
   margin-bottom: 1.4em;
   box-shadow: 0 2px 10px rgba(28, 37, 48, 0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
