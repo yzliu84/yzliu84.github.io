@@ -11,7 +11,7 @@
   --ink: #2a2f36;             /* primary text */
   --ink-soft: #5b6470;        /* secondary text */
   --heading: #1c2530;
-  --panel: rgba(255, 255, 255, 0.80);
+  --panel: rgba(255, 255, 255, 0.96);   /* near-solid backing so text is always legible */
   --hairline: rgba(28, 37, 48, 0.10);
   --radius: 18px;
 }
@@ -74,7 +74,7 @@ body::after {                  /* cool, airy wash for legibility */
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.85);
   -webkit-backdrop-filter: saturate(150%) blur(14px);
   backdrop-filter: saturate(150%) blur(14px);
   border-bottom: 1px solid var(--hairline);
@@ -267,7 +267,7 @@ a:hover { color: var(--accent-dark); }
 /* ---- Publication / paper boxes — clean flat cards ------------------------ */
 .paper-box {
   border-bottom: none;
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.92);
   border: 1px solid var(--hairline);
   border-radius: 12px;
   padding: 1.6em;
