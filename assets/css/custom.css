@@ -196,17 +196,23 @@ body::after {                  /* cool, airy wash for legibility */
   display: block !important;
   width: 100%;
   margin: 0;
+  position: relative !important;
+  z-index: 5 !important;
 }
 .author__urls-wrapper button { display: none !important; }   /* mobile toggle btn */
 
-/* horizontal, centered link row */
+/* horizontal, centered link row.
+   The base theme sets z-index:-1 here, which (inside the frosted card's
+   stacking context) buries the links behind the card and makes them
+   unclickable. Force them above with relative positioning + positive z. */
 .author__urls {
   display: flex !important;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 0.45em 1.4em;
-  position: static !important;
+  position: relative !important;
+  z-index: 5 !important;
   margin: 0.6em 0 0 !important;
   padding: 0 !important;
   border: 0 !important;
@@ -214,7 +220,12 @@ body::after {                  /* cool, airy wash for legibility */
   box-shadow: none !important;
 }
 .author__urls:before, .author__urls:after { display: none !important; }
-.author__urls li { white-space: nowrap; margin: 0; }
+.author__urls li {
+  white-space: nowrap;
+  margin: 0;
+  position: relative;
+  z-index: 5;
+}
 /* the first item is the site description sentence — give it its own row */
 .author__urls li:first-child {
   flex-basis: 100%;
@@ -232,6 +243,9 @@ body::after {                  /* cool, airy wash for legibility */
   font-size: 0.98em;
   font-weight: 500;
   text-decoration: none;
+  position: relative;
+  z-index: 5;
+  pointer-events: auto !important;
 }
 .author__urls a:hover { color: var(--accent); text-decoration: none; }
 .author__urls .fa, .author__urls .fab, .author__urls .fas, .author__urls .ai {
