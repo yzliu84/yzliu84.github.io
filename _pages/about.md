@@ -14,9 +14,7 @@ $~~~~$I am a PhD student majoring in ELectrical Engineering at <strong>Stanford 
 
 $~~~~$I got my BS at Zhejiang University, majoring in <strong>Electronic Science and Technology</strong> in College of Information Science & Electronic Engineering and minoring in <strong>Intensive Training Program of Innovation and Entrepreneurship</strong> in Chu Kochen Honors College(honor). <br />
 
-$~~~~$I am currently a research assistant, advised by <strong>[Prof. Subhasish Mitra](https://profiles.stanford.edu/subhasish-mitra)</strong>. Before that, I worked at <strong>State Key Laboratory of Brain-Machine Intelligence</strong> in Hangzhou, China, supervised by <strong>[Prof. Peng Lin](https://person.zju.edu.cn/en/linpeng)</strong>. And I was honored to be a visiting student at <strong>Massachusetts Institute of Technology(MIT)</strong> and research assistant in <strong>Media Lab</strong>, supervised by <strong>[Prof. Deblina Sarkar](https://web.mit.edu/deblina-sarkar/)</strong>. I am also advised by <strong>Prof. Liang Zhao</strong> previously.<br />
-
-$~~~~$My research interest lies in <strong>Integrate circuits architecture, AI hardware/software codesign</strong>, <strong> Physical AI</strong> and <strong>3D Nanotechnology</strong>.<br />
+$~~~~$My current research interest lies in <strong> Robotics Fondational Model, expecially the memory.</strong> Previously I was working on Integrate circuits architecture, AI hardware/software codesign, and 3D Nanotechnology.<br />
 
 $~~~~$Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
 
@@ -82,7 +80,7 @@ $~~~~$Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Nov. 2025 -- Jun. 2026, Robust Systems Group, Stanford University</strong>, CA, US<br>
-        <em>Research Assistant</em>, supervised by Prof. Subhasish Mitra
+        <em>PhD student researcher</em>, supervised by Prof. Subhasish Mitra
       </div>
     </div>
   </li>
@@ -97,7 +95,7 @@ $~~~~$Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Sept. 2025 -- Nov. 2025, Brain in Silicon, Stanford University</strong>, CA, US<br>
-        <em>Research Assistant</em>, supervised by Prof. Kwabena Boahen
+        <em>PhD student researcher</em>, supervised by Prof. Kwabena Boahen
       </div>
     </div>
   </li>
