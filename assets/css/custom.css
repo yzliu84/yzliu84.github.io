@@ -278,6 +278,10 @@ body::after {                  /* cool, airy wash for legibility */
 .page__content p,
 .page__content li { font-size: 1em; color: var(--ink); }
 
+/* First-line indent for the intro paragraphs (direct children only), replacing
+   the old "$~~~~$" MathJax indent hack that flashed raw text before rendering. */
+.page__content > p { text-indent: 2em; }
+
 /* ---- Links --------------------------------------------------------------- */
 a { color: var(--accent); }
 a:hover { color: var(--accent-dark); }
