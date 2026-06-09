@@ -35,8 +35,11 @@ body,
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* main.css sets html{background:#fff}, which would cover the fixed bg layer.
+   Make the root transparent so the alpine background shows through. */
+html { background: transparent !important; background-color: transparent !important; }
 body {
-  background: #e9eef2;          /* fallback before image loads */
+  background: transparent !important;
   line-height: 1.7;
   letter-spacing: 0.005em;
 }
@@ -47,6 +50,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -2;
+  background-color: #e9eef2;   /* fallback before image loads */
   background-image: var(--bg-image);
   background-size: cover;
   background-position: center top;
