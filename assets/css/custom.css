@@ -105,6 +105,7 @@ body::after {                  /* cool, airy wash for legibility */
 
 /* The profile that used to be a left block becomes a centered hero card */
 .sidebar {
+  display: flow-root !important;
   float: none !important;
   width: 100% !important;
   max-width: 100% !important;
@@ -122,8 +123,12 @@ body::after {                  /* cool, airy wash for legibility */
   text-align: center;
 }
 
-/* The main content as a frosted card below the hero */
+/* The main content as a frosted card below the hero.
+   main.css floats .page__content (float:left), so the card would collapse
+   to ~0 height and the text would spill onto the background. flow-root
+   makes the card contain its floated content and grow to full height. */
 .page {
+  display: flow-root !important;
   float: none !important;
   width: 100% !important;
   margin: 0 !important;
