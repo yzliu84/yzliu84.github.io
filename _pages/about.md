@@ -80,7 +80,7 @@ Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Nov. 2025 -- Jun. 2026, Robust Systems Group, Stanford University</strong>, CA, US<br>
-        <em>PhD student researcher</em>, supervised by Prof. Subhasish Mitra
+        <em>PhD student researcher</em>, supervised by <a href="https://profiles.stanford.edu/subhasish-mitra">Prof. Subhasish Mitra</a>
       </div>
     </div>
   </li>
@@ -95,7 +95,7 @@ Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Sept. 2025 -- Nov. 2025, Brain in Silicon, Stanford University</strong>, CA, US<br>
-        <em>PhD student researcher</em>, supervised by Prof. Kwabena Boahen
+        <em>PhD student researcher</em>, supervised by <a href="https://profiles.stanford.edu/kwabena-boahen">Prof. Kwabena Boahen</a>
       </div>
     </div>
   </li>
@@ -110,7 +110,7 @@ Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Jun. 2023 -- Jun. 2025, State Key Laboratory of Brain-Machine Intelligence</strong>, Hangzhou, China<br>
-        <em>Research Assistant</em>, supervised by Prof. Peng Lin
+        <em>Research Assistant</em>, supervised by <a href="https://person.zju.edu.cn/en/linpeng">Prof. Peng Lin</a>
       </div>
     </div>
   </li>
@@ -125,7 +125,7 @@ Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Jun. 2024 -- Dec. 2024, Media Lab,  Massachusetts Institute of Technology</strong>,  Cambridge, MA, US<br>
-        <em>Research Assistant</em>, supervised by Prof. Deblina Sarkar
+        <em>Research Assistant</em>, supervised by <a href="https://web.mit.edu/deblina-sarkar/">Prof. Deblina Sarkar</a>
       </div>
     </div>
   </li>
