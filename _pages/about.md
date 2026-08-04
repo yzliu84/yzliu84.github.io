@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student majoring in ELectrical Engineering at <strong>Stanford University</strong>. <br />
+I am a PhD student majoring in Electrical Engineering at <strong>Stanford University</strong>. <br />
 
 I got my BS at Zhejiang University, majoring in <strong>Electronic Science and Technology</strong> in College of Information Science & Electronic Engineering and minoring in <strong>Intensive Training Program of Innovation and Entrepreneurship</strong> in Chu Kochen Honors College(honor). <br />
 
