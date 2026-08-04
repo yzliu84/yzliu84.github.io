@@ -79,6 +79,21 @@ Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
 
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
+        <strong>Jun. 2025 -- Present, Stanford AI Lab (SAIL) and Stanford Vision and Learning Lab (SVL), Stanford University</strong>, CA, US<br>
+        <em>PhD student researcher</em>, supervised by <a href="https://jiajunwu.com/">Prof. Jiajun Wu</a>
+      </div>
+    </div>
+  </li>
+  <br />
+  <li>
+    <div style="display: flex; align-items: center;">
+      <!-- 右侧的图像部分 -->
+      <div>
+        <img src="images/SU_Seal_Red.png" alt="STF Logo" width="50">
+      </div>
+
+      <!-- 左侧的文本部分 -->
+      <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Nov. 2025 -- Jun. 2026, Robust Systems Group, Stanford University</strong>, CA, US<br>
         <em>PhD student researcher</em>, supervised by <a href="https://profiles.stanford.edu/subhasish-mitra">Prof. Subhasish Mitra</a>
       </div>
