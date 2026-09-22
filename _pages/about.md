@@ -81,7 +81,7 @@ Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
       <!-- 左侧的文本部分 -->
       <div style="flex-grow: 1; margin-left: 10px;">
         <strong>Sept. 2026 -- Present, Autonomous Systems Lab, Stanford University</strong>, CA, US<br>
-        <em>PhD student researcher</em>, supervised by <a href="https://web.stanford.edu/~pavone/index.html">Prof. Marco Pavone </a> and <a href="https://profiles.stanford.edu/leonidas-guibas">Prof. Leonidas Guibas</a>
+        <em>PhD student researcher</em>, supervised by <a href="https://web.stanford.edu/~pavone/index.html">Prof. Marco Pavone </a> and <a href="https://geometry.stanford.edu/?member=guibas">Prof. Leonidas Guibas</a>
       </div>
     </div>
   </li>
