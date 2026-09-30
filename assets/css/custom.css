@@ -302,7 +302,8 @@ a:hover { color: var(--accent-dark); }
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(28, 37, 48, 0.12);
 }
-.paper-box .paper-box-image img {
+.paper-box .paper-box-image img,
+.paper-box .paper-box-image video {
   box-shadow: 0 4px 14px rgba(28, 37, 48, 0.18) !important;
   border-radius: 6px;
 }

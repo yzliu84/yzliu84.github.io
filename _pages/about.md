@@ -180,6 +180,22 @@ Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><video src="images/t2mem-introduction.mp4" aria-label="T²Mem introduction" width="300" autoplay muted loop playsinline controls preload="metadata">Your browser does not support video. <a href="images/t2mem-introduction.mp4">Watch the introduction</a>.</video></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div style="color:#00008B; font-weight: bold;">
+    T²Mem: Learning Test-Time Memory for Robotics
+</div>
+
+**<u>Yize Liu</u>**, Huang Huang, Yining Hong, Zijian Du, Zhi Cao, Li Fei-Fei, Jiajun Wu.
+
+**arXiv preprint**, arXiv:2609.36720 (2026).
+
+[Paper](https://arxiv.org/abs/2609.36720) · [Project Website](https://yzliu84.github.io/T2MEM-project/)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science Advances</div><img src='images/bu1.png' alt="sym" width="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
