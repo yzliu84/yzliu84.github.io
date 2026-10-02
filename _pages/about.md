@@ -180,6 +180,24 @@ Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/ecomem-teaser.png' alt="ECoMEM: Explicit Concept Memory overview" width="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<div style="color:#00008B; font-weight: bold;">
+    ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control
+</div>
+
+**<u>Yize Liu</u>**, [Ke Wang](https://kewang.ai/), [Mac Schwager](https://web.stanford.edu/~schwager/), [Yiqing Xu†](https://eeching.github.io/), [Jiajun Wu†](https://www.jiajunwu.net/).
+
+†Equal advising.
+
+**arXiv preprint**, arXiv:2610.00801 (2026).
+
+[Paper](https://arxiv.org/abs/2610.00801) · [Project Website](https://ecomem.github.io/)
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><video src="images/t2mem-introduction.mp4" aria-label="T²Mem introduction" width="300" autoplay muted loop playsinline controls preload="metadata">Your browser does not support video. <a href="images/t2mem-introduction.mp4">Watch the introduction</a>.</video></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -261,4 +279,3 @@ Find this paper at Neuromorphic Computing and Engineering [Website](https://iops
     <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=00508d&w=a&t=n&d=fpRwPZGVmUyfZYB0X79YKZgraC2Xd88xITIplzf5kjk&co=ffffff&cmo=ebe300&cmn=0ccc0c'></script>
   </div>
 </div>
-
