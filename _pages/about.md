@@ -273,7 +273,7 @@ Find this paper at Neuromorphic Computing and Engineering [Website](https://iops
 
 # 🌿 Personal Interests
 
-Beyond research, I enjoy exploring a wide range of subjects, especially unfamiliar fields that open up new ways of seeing the world. My interests include world history, Asian history, politics, and archaeology—a field I once dreamed of studying. I also love reading fiction, from literary fiction to science fiction and Chinese fantasy (*xuanhuan*), which I find particularly captivating.
+Beyond research, I enjoy exploring a wide range of subjects, especially unfamiliar fields that open up new ways of seeing the world. My interests include world history, East Asian history, politics, religious studies, esotericism, and archaeology—a field I once dreamed of studying. I also love reading fiction, from literary fiction to science fiction and Chinese fantasy (*xuanhuan*), which I find particularly captivating.
 
 I have a special fondness for traditional Chinese culture. I sing Peking opera, including excerpts from *The Drunken Concubine* (贵妃醉酒), *The Story of Taizhen* (太真外传), and *Mu Guiying Takes Command* (穆桂英挂帅). Recently, I have also started exploring Chinese brush calligraphy. If any of these interests resonate with you, I'd love to connect and chat!
 
