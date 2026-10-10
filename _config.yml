@@ -24,7 +24,7 @@ author:
   name             : "Yize (Henry) Liu 刘毅泽"
   avatar           : "images/head4.JPG"
   bio              : "Stanford University"
-  location         : "Palo Alto, CA, US"
+  location         :
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=0HDMzH0AAAAJ"
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "yzliu84"
   vine             :
   weibo            :
   xing             :
