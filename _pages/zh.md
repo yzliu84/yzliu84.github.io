@@ -27,8 +27,10 @@ lang: zh
 </div>
 </section>
 
+{% include sections.html %}
+
 <section class="sec" id="name">
-{% include section-head.html num="02" title=site.data.i18n.zh.sec.name %}
+{% include section-head.html num="06" title=site.data.i18n.zh.sec.name %}
 <div class="prose" markdown="1">
 
 这是一个有趣的过程：我的英文名 Henry，其实是先得自中文“亨利”的谐音。“亨利”二字取自《周易》乾卦第一的卦辞“元亨利贞”。
@@ -37,8 +39,6 @@ lang: zh
 
 </div>
 </section>
-
-{% include sections.html %}
 
 <section class="sec" id="interests">
 {% include section-head.html num="07" title=site.data.i18n.zh.sec.interests %}

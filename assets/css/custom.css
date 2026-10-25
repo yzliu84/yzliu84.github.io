@@ -409,11 +409,10 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
 /* ==========================================================================
    DESKTOP: lock the layout to the painting
    The painting is always 100vw wide, so on desktop the column's offset and width
-   are fractions of the viewport too (matching a 1440px screen: 14% in, 52.8% wide),
-   and the type scales with the width so lines keep the same length.
+   are fractions of the viewport too (matching a 1440px screen: 14% in, 52.8% wide).
+   Type stays at its normal size.
    ========================================================================== */
 @media (min-width: 1001px) {
-  html { font-size: clamp(16px, 1.1111vw, 24px) !important;   /* 16px at 1440px wide */ }
   #main.wrap { padding: 0; }
   #main.wrap > *,
   .footer__inner > div:first-child,

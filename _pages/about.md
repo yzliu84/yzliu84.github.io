@@ -30,8 +30,10 @@ Contact me by email **yizeliu@stanford.edu**.
 </div>
 </section>
 
+{% include sections.html %}
+
 <section class="sec" id="name">
-{% include section-head.html num="02" title=site.data.i18n.en.sec.name %}
+{% include section-head.html num="06" title=site.data.i18n.en.sec.name %}
 <div class="prose" markdown="1">
 
 How I came by my English name is a small story of its own. *Henry* actually began as a Chinese name, 亨利 (*Hēng Lì*), and the English name followed from its sound. The two characters come from the *I Ching* (*Book of Changes*): Qián (乾), the first of its hexagrams, opens with the four words 元亨利贞 (*yuán hēng lì zhēn*), and my name takes the middle two.
@@ -40,8 +42,6 @@ How I came by my English name is a small story of its own. *Henry* actually bega
 
 </div>
 </section>
-
-{% include sections.html %}
 
 <section class="sec" id="interests">
 {% include section-head.html num="07" title=site.data.i18n.en.sec.interests %}
