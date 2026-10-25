@@ -409,7 +409,7 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
 /* ==========================================================================
    DESKTOP: lock the layout to the painting
    The painting is always 100vw wide, so on desktop the column's offset and width
-   are fractions of the viewport too (matching a 1440px screen: 14% in, 52.8% wide).
+   are fractions of the viewport too: 9% in and 51% wide, so the text ends at 60%.
    Type stays at its normal size.
    ========================================================================== */
 @media (min-width: 1001px) {
@@ -417,14 +417,14 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
   #main.wrap > *,
   .footer__inner > div:first-child,
   .footer__map {
-    width: 52.78vw;
+    width: 51vw;
     max-width: none;
-    margin-left: 14vw;
+    margin-left: 9vw;
     margin-right: 0;
   }
   .footer__inner { padding-left: 0; padding-right: 0; }
   .topbar__inner { padding-left: 6vw; padding-right: 6vw; }
-  .hero { grid-template-columns: minmax(0, 1fr) 16.67vw; gap: 2.5vw; }
+  .hero { grid-template-columns: minmax(0, 1fr) min(220px, 15vw); gap: min(36px, 2.5vw); }   /* photo: 220px, smaller only on narrow laptops */
   .eyebrow { font-size: min(1.02rem, 1.13vw); }   /* stays on one line on narrower laptops */
 }
 
