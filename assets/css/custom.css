@@ -248,7 +248,7 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
 /* ==========================================================================
    SECTIONS
    ========================================================================== */
-.sec { padding: 28px 34px 14px; }
+.sec { padding: 1.75rem 2.125rem 0.875rem; }
 .sec__head {
   display: flex;
   align-items: baseline;
@@ -286,8 +286,8 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
 .timeline { list-style: none; margin: 0; padding: 0; }
 .timeline .entry {
   display: grid;
-  grid-template-columns: 52px minmax(0, 1fr) auto;
-  gap: 18px;
+  grid-template-columns: 3.25rem minmax(0, 1fr) auto;
+  gap: 1.125rem;
   align-items: center;
   padding: 14px 0;
   border-bottom: 1px solid var(--line);
@@ -296,7 +296,7 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
 
 /* Logo: transparent-background PNGs sit straight on the card */
 .stamp {
-  width: 52px; height: 52px;
+  width: 3.25rem; height: 3.25rem;
   display: grid;
   place-items: center;
 }
@@ -319,8 +319,8 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
 .pubs { display: grid; }
 .pub {
   display: grid;
-  grid-template-columns: 250px minmax(0, 1fr);
-  gap: 26px;
+  grid-template-columns: 15.625rem minmax(0, 1fr);
+  gap: 1.625rem;
   align-items: start;
   padding: 22px 0;
   border-bottom: 1px solid var(--line);
@@ -332,7 +332,7 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
   outline: 1px solid rgba(38, 37, 31, 0.3);
   outline-offset: -4px;
 }
-.pub__media img, .pub__media video { width: 100%; max-height: 220px; object-fit: contain; margin: 0 auto; }
+.pub__media img, .pub__media video { width: 100%; max-height: 13.75rem; object-fit: contain; margin: 0 auto; }
 .tag {
   position: absolute;
   top: -9px;
@@ -360,8 +360,8 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
 .honors { list-style: none; margin: 0; padding: 0; }
 .honors li {
   display: grid;
-  grid-template-columns: 80px minmax(0, 1fr);
-  gap: 18px;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: 1.125rem;
   padding: 11px 0;
   border-bottom: 1px solid var(--line);
   margin: 0;
@@ -378,7 +378,7 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
   padding: 8px;
   outline: 1px solid rgba(38, 37, 31, 0.3);
   outline-offset: -4px;
-  max-width: 340px;
+  max-width: 21.25rem;
 }
 
 /* ==========================================================================
@@ -396,7 +396,7 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
   margin-left: var(--col-shift);
   margin-right: auto;
 }
-.footer__inner > div:first-child { padding: 20px 34px; }
+.footer__inner > div:first-child { padding: 1.25rem 2.125rem; }
 .footer__name { font-weight: 700; font-size: 1.1rem; }
 .footer__name span { font-family: var(--cjk); font-weight: 600; font-size: 1em; letter-spacing: 0.1em; margin-left: 6px; color: var(--ink-2); }
 .footer__meta { font-size: 0.9rem; font-weight: 500; color: var(--ink-2); margin-top: 4px; }
@@ -405,6 +405,29 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
 .footer__credit a { border-bottom: 1px solid rgba(38, 37, 31, 0.35); }
 .footer__map { margin-top: 18px; }
 .footer__map > * { max-width: 260px; }
+
+/* ==========================================================================
+   DESKTOP: lock the layout to the painting
+   The painting is always 100vw wide, so on desktop the column's offset and width
+   are fractions of the viewport too (matching a 1440px screen: 14% in, 52.8% wide),
+   and the type scales with the width so lines keep the same length.
+   ========================================================================== */
+@media (min-width: 1001px) {
+  html { font-size: clamp(16px, 1.1111vw, 24px) !important;   /* 16px at 1440px wide */ }
+  #main.wrap { padding: 0; }
+  #main.wrap > *,
+  .footer__inner > div:first-child,
+  .footer__map {
+    width: 52.78vw;
+    max-width: none;
+    margin-left: 14vw;
+    margin-right: 0;
+  }
+  .footer__inner { padding-left: 0; padding-right: 0; }
+  .topbar__inner { padding-left: 6vw; padding-right: 6vw; }
+  .hero { grid-template-columns: minmax(0, 1fr) 16.67vw; gap: 2.5vw; }
+  .eyebrow { font-size: min(1.02rem, 1.13vw); }   /* stays on one line on narrower laptops */
+}
 
 /* ==========================================================================
    RESPONSIVE
