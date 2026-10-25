@@ -30,10 +30,21 @@ Contact me by email **yizeliu@stanford.edu**.
 </div>
 </section>
 
+<section class="sec" id="name">
+{% include section-head.html num="02" title=site.data.i18n.en.sec.name %}
+<div class="prose" markdown="1">
+
+How I came by my English name is a small story of its own. *Henry* actually began as a Chinese name, 亨利 (*Hēng Lì*), and the English name followed from its sound. The two characters come from the *I Ching* (*Book of Changes*): Qián (乾), the first of its hexagrams, opens with the four words 元亨利贞 (*yuán hēng lì zhēn*), and my name takes the middle two.
+
+*Hēng* (亨) is the gathering of all that is fine; *lì* (利) is harmony in keeping with what is right. Together they carry a hope: to move through the world with ease and in due measure, and to see things through to fruition.
+
+</div>
+</section>
+
 {% include sections.html %}
 
 <section class="sec" id="interests">
-{% include section-head.html num="06" title=site.data.i18n.en.sec.interests %}
+{% include section-head.html num="07" title=site.data.i18n.en.sec.interests %}
 <div class="prose" markdown="1">
 
 Beyond research, I enjoy exploring a wide range of subjects, especially unfamiliar fields that open up new ways of seeing the world. My interests include world history, East Asian history, politics, religious studies, esotericism, and archaeology—a field I once dreamed of studying. I also love reading fiction, from literary fiction to science fiction and Chinese fantasy (*xuanhuan*), which I find particularly captivating.

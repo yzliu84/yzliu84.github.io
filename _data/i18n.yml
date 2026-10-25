@@ -18,6 +18,7 @@ en:
     interests: "Interests"
   sec:
     about: "About"
+    name: "On My English Name"
     education: "Education"
     research: "Research Experience"
     publications: "Publications"
@@ -44,6 +45,7 @@ zh:
     interests: "兴趣"
   sec:
     about: "关于我"
+    name: "关于我的英文名"
     education: "教育经历"
     research: "科研经历"
     publications: "论文发表"

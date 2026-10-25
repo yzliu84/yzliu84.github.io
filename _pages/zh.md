@@ -27,10 +27,21 @@ lang: zh
 </div>
 </section>
 
+<section class="sec" id="name">
+{% include section-head.html num="02" title=site.data.i18n.zh.sec.name %}
+<div class="prose" markdown="1">
+
+这是一个有趣的过程：我的英文名 Henry，其实是先得自中文“亨利”的谐音。“亨利”二字取自《周易》乾卦第一的卦辞“元亨利贞”。
+
+《文言》曰：“亨者，嘉之会也；利者，义之和也。”亨，是美好事物的会聚；利，是合乎道义的和谐。二者合在一起，寓意通达而得其宜、顺畅而有所成的希望。
+
+</div>
+</section>
+
 {% include sections.html %}
 
 <section class="sec" id="interests">
-{% include section-head.html num="06" title=site.data.i18n.zh.sec.interests %}
+{% include section-head.html num="07" title=site.data.i18n.zh.sec.interests %}
 <div class="prose" markdown="1">
 
 科研之外，我喜欢涉猎各种领域，尤其是那些陌生、能带来新视角的领域。我的兴趣包括世界史、东亚史、政治、宗教研究、神秘学，以及考古学——那是我曾经梦想学习的专业。我也喜欢读小说，从严肃文学、科幻到中国玄幻，其中玄幻尤其让我着迷。

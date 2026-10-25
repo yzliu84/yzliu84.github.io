@@ -7,7 +7,7 @@
 {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
 
 <section class="sec" id="experience">
-{% include section-head.html num="02" title=t.sec.education %}
+{% include section-head.html num="03" title=t.sec.education %}
 <ol class="timeline">
 {% for e in site.data.education %}
   {% if zh %}{% assign org = e.org_zh | default: e.org %}{% assign place = e.place_zh | default: e.place %}{% assign date = e.date_zh | default: e.date %}{% assign role = e.role_zh | default: e.role %}
@@ -25,7 +25,7 @@
 </section>
 
 <section class="sec" id="research">
-{% include section-head.html num="03" title=t.sec.research %}
+{% include section-head.html num="04" title=t.sec.research %}
 <ol class="timeline">
 {% for e in site.data.research %}
   {% if zh %}{% assign org = e.org_zh | default: e.org %}{% assign place = e.place_zh | default: e.place %}{% assign date = e.date_zh | default: e.date %}{% assign role = e.role_zh | default: e.role %}{% assign advisors = e.advisors_zh | default: e.advisors %}
@@ -43,7 +43,7 @@
 </section>
 
 <section class="sec" id="publications">
-{% include section-head.html num="04" title=t.sec.publications %}
+{% include section-head.html num="05" title=t.sec.publications %}
 <div class="pubs">
 {% for p in site.data.publications %}
   {% if zh %}{% assign authors = p.authors_zh | default: p.authors %}{% assign note = p.note_zh | default: p.note %}{% assign venue = p.venue_zh | default: p.venue %}
@@ -74,7 +74,7 @@
 </section>
 
 <section class="sec" id="honors">
-{% include section-head.html num="05" title=t.sec.honors %}
+{% include section-head.html num="06" title=t.sec.honors %}
 <ul class="honors">
 {% for h in site.data.honors %}
   {% if zh %}{% assign text = h.text_zh | default: h.text %}{% else %}{% assign text = h.text %}{% endif %}
