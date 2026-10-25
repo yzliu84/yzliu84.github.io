@@ -3,285 +3,42 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+lang: en
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<span class='anchor' id='about-me'></span>
+<!--
+  English page. The Chinese twin is _pages/zh.md (served at /zh.html).
+  Entries live in _data/*.yml (education, research, publications, honors), shared by both pages;
+  interface strings live in _data/i18n.yml. The About and Interests text is below.
+-->
 
-I am a PhD student majoring in Electrical Engineering at <strong>Stanford University</strong>. <br />
+<section class="sec" id="about-me">
+{% include section-head.html num="01" title=site.data.i18n.en.sec.about %}
+<div class="prose" markdown="1">
 
-I got my BS at Zhejiang University, majoring in <strong>Electronic Science and Technology</strong> in College of Information Science & Electronic Engineering and minoring in <strong>Intensive Training Program of Innovation and Entrepreneurship</strong> in Chu Kochen Honors College(honor). <br />
+I am a PhD student majoring in Electrical Engineering at **Stanford University**.
 
-My current research interest lies in <strong> Foundation Model for Robotics, especially the memory.</strong> Previously I was working on 3D chip architecture, AI hardware/software codesign, Neuromorphic computing and Device fabrication.<br />
+I got my BS at Zhejiang University, majoring in **Electronic Science and Technology** in College of Information Science & Electronic Engineering and minoring in **Intensive Training Program of Innovation and Entrepreneurship** in Chu Kochen Honors College (honor).
 
-Contact me by email <strong>yizeliu@stanford.edu</strong>.<br />
+My current research interest lies in **Foundation Model for Robotics, especially the memory.** Previously I was working on 3D chip architecture, AI hardware/software codesign, Neuromorphic computing and Device fabrication.
 
-
-
-# 🏫 Education Experiences
-<ul>
-  <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/SU_Seal_Red.png" alt="STF Logo" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Sept. 2025 -- Present, Stanford University</strong>, CA, US<br>
-        <em>PhD Student</em>
-      </div>
-    </div>
-  </li>
-  <br />
-  <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/ZJU.png" alt="ZJU Logo" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Sept. 2021 -- Jun. 2025, Zhejiang University</strong>, Hangzhou, China<br>
-        <em>Bachlor of Engineering</em>
-      </div>
-    </div>
-  </li>
-  <br />
-  <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/chu.png" alt="CHU" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Sept. 2022 -- Jun. 2025, Chu Kochen Honors College, Zhejiang University</strong>, Hangzhou, China<br>
-        <em>Minor in Intensive Training Program of Innovation and Entrepreneurship</em>
-      </div>
-    </div>
-  </li>
-</ul>
-
-# 📖 Research Experiences
-
-<ul>
-    <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/SU_Seal_Red.png" alt="STF Logo" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Sept. 2026 -- Present, Autonomous Systems Lab, Stanford University</strong>, CA, US<br>
-        <em>PhD student researcher</em>, supervised by <a href="https://web.stanford.edu/~pavone/index.html">Prof. Marco Pavone </a> and <a href="https://geometry.stanford.edu/?member=guibas">Prof. Leonidas Guibas</a>
-      </div>
-    </div>
-  </li>
-  <br />
-  <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/SU_Seal_Red.png" alt="STF Logo" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Jun. 2026 -- Sept. 2026, Stanford AI Lab (SAIL) and Stanford Vision and Learning Lab (SVL), Stanford University</strong>, CA, US<br>
-        <em>PhD student researcher</em>, supervised by <a href="https://jiajunwu.com/">Prof. Jiajun Wu</a>
-      </div>
-    </div>
-  </li>
-  <br />
-  <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/SU_Seal_Red.png" alt="STF Logo" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Nov. 2025 -- Jun. 2026, Robust Systems Group, Stanford University</strong>, CA, US<br>
-        <em>PhD student researcher</em>, supervised by <a href="https://profiles.stanford.edu/subhasish-mitra">Prof. Subhasish Mitra</a>
-      </div>
-    </div>
-  </li>
-  <br />
-  <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/SU_Seal_Red.png" alt="STF Logo" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Sept. 2025 -- Nov. 2025, Brain in Silicon, Stanford University</strong>, CA, US<br>
-        <em>PhD student researcher</em>, supervised by <a href="https://profiles.stanford.edu/kwabena-boahen">Prof. Kwabena Boahen</a>
-      </div>
-    </div>
-  </li>
-  <br />
-   <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/ZJU.png" alt="ZJU Logo" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Jun. 2023 -- Jun. 2025, State Key Laboratory of Brain-Machine Intelligence</strong>, Hangzhou, China<br>
-        <em>Research Assistant</em>, supervised by <a href="https://person.zju.edu.cn/en/linpeng">Prof. Peng Lin</a>
-      </div>
-    </div>
-  </li>
-  <br />
-  <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/mit_logo.svg" alt="MIT Logo" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Jun. 2024 -- Dec. 2024, Media Lab,  Massachusetts Institute of Technology</strong>,  Cambridge, MA, US<br>
-        <em>Research Assistant</em>, supervised by <a href="https://web.mit.edu/deblina-sarkar/">Prof. Deblina Sarkar</a>
-      </div>
-    </div>
-  </li>
-  <br />
-  <li>
-    <div style="display: flex; align-items: center;">
-      <!-- 右侧的图像部分 -->
-      <div>
-        <img src="images/ZJU.png" alt="ZJU Logo" width="50">
-      </div>
-
-      <!-- 左侧的文本部分 -->
-      <div style="flex-grow: 1; margin-left: 10px;">
-        <strong>Jan. 2023 -- Jan. 2024, Institute of Integrated Circuit Pilot Technology,  Zhejiang University</strong>, Hangzhou, China<br>
-        <em>Research Assistant</em>, supervised by Prof. Liang Zhao
-      </div>
-    </div>
-  </li>
-</ul>
-
-
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/ecomem-teaser.png' alt="ECoMEM: Explicit Concept Memory overview" width="300"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div style="color:#00008B; font-weight: bold;">
-    ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control
-</div>
-
-**<u>Yize Liu</u>**, [Ke Wang](https://kewang.ai/), [Mac Schwager](https://web.stanford.edu/~schwager/), [Yiqing Xu†](https://eeching.github.io/), [Jiajun Wu†](https://www.jiajunwu.net/).
-
-†Equal advising.
-
-**arXiv preprint**, arXiv:2610.00801 (2026).
-
-[Paper](https://arxiv.org/abs/2610.00801) · [Project Website](https://ecomem.github.io/)
+Contact me by email **yizeliu@stanford.edu**.
 
 </div>
-</div>
+</section>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><video src="images/t2mem-introduction.mp4" aria-label="T²Mem introduction" width="300" autoplay muted loop playsinline controls preload="metadata">Your browser does not support video. <a href="images/t2mem-introduction.mp4">Watch the introduction</a>.</video></div></div>
-<div class='paper-box-text' markdown="1">
+{% include sections.html %}
 
-<div style="color:#00008B; font-weight: bold;">
-    T²Mem: Learning Test-Time Memory for Robotics
-</div>
-
-**<u>Yize Liu</u>**, Huang Huang, Yining Hong, Zijian Du, Zhi Cao, Li Fei-Fei, Jiajun Wu.
-
-**arXiv preprint**, arXiv:2609.36720 (2026).
-
-[Paper](https://arxiv.org/abs/2609.36720) · [Project Website](https://yzliu84.github.io/T2MEM-project/)
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Science Advances</div><img src='images/bu1.png' alt="sym" width="300"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div style="color:#00008B; font-weight: bold;">
-    Bio-plausible Reconfigurable Spiking Neuron for Neuromorphic Computing
-</div>
-
-Yu Xiao†, **<u>Yize Liu† (Contribute equally)</u>**, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju
-Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, [Qian Zheng](https://person.zju.edu.cn/en/zq#0), [Huajin Tang](https://person.zju.edu.cn/en/0018196), [Peng Lin\*](https://person.zju.edu.cn/en/linpeng), [Wei Kong\*](https://www.konglab-westlake.com/about-5), [Gang Pan\*](https://person.zju.edu.cn/en/gpan).
-
-**Science Advances**. 11, eadr6733 (2025).
-
-Find this paper at Science Advances [Website](https://www.science.org/doi/10.1126/sciadv.adr6733).
-
-</div>
-</div>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NCE</div><img src='images/nce.png' alt="sym" width="300"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-<div style="color:#00008B; font-weight: bold;">
-    Variation-resilient Spike-timing-dependent Plasticity in Memristors Using Bursting Neuron Circuit
-</div>
-**<u> Yize Liu </u>**, Jiayi Zhao, Yu Xiao, Peng Chen\*, Haisong Chen, Enhui He, Peng Lin\* and Gang Pan\*
-
-Neuromorphic Computing and Engineering, 5 024013
-
-Find this paper at Neuromorphic Computing and Engineering [Website](https://iopscience.iop.org/article/10.1088/2634-4386/add9c0).
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='images/lsmtu3.svg' alt="sym" width="300"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<div style="color:#00008B; font-weight: bold;">
-    ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing
-</div>
-
-**<u>Yize Liu</u>**, Zhichu Ren, Liang Zhao* 
-
-**2024 ACM/IEEE International Conference on Computer-Aided Design**, Student Research Competition
-</div>
-</div>
-
-# 🎖 Honors and Awards
-- *2024.12* Yuelun Scholarship.
-- *2024.10* First Place award in [Student Research Competition](https://src.acm.org/) @ICCAD.
-
-<div style="text-align:center">
-  <img src='images/iccad.png' alt="iccad" width="350" />
-</div>
-
-- *2024.10* ICCAD 2024 Student Scholarships.
-- *2024.05* College Shannon Scholarship. 
-- *2023.10* China Optics Valley Scholarship.
-- *2023.07* Gold Award (Province) for the China International College Students’ Innovation Competition.
-
-# 🌿 Personal Interests
+<section class="sec" id="interests">
+{% include section-head.html num="06" title=site.data.i18n.en.sec.interests %}
+<div class="prose" markdown="1">
 
 Beyond research, I enjoy exploring a wide range of subjects, especially unfamiliar fields that open up new ways of seeing the world. My interests include world history, East Asian history, politics, religious studies, esotericism, and archaeology—a field I once dreamed of studying. I also love reading fiction, from literary fiction to science fiction and Chinese fantasy (*xuanhuan*), which I find particularly captivating.
 
 I have a special fondness for traditional Chinese culture. I sing Peking opera, including excerpts from *The Drunken Concubine*, *The Story of Taizhen*, and *Mu Guiying Takes Command*. Recently, I have also started exploring Chinese brush calligraphy. If any of these interests resonate with you, I'd love to connect and chat!
 
-
-
-
-<div style="text-align: center;">
-  <div class="map-container" style="width: 500px; margin: 0 auto;">
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=00508d&w=a&t=n&d=fpRwPZGVmUyfZYB0X79YKZgraC2Xd88xITIplzf5kjk&co=ffffff&cmo=ebe300&cmn=0ccc0c'></script>
-  </div>
 </div>
+</section>

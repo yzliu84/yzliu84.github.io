@@ -1,331 +1,433 @@
 /* ==========================================================================
-   Custom redesign — alpine background, centered hero, single-column, flat.
-   Layered on top of main.css (Minimal Mistakes). Safe to remove this file
-   and its <link> in _includes/head/custom.html to fully revert.
+   Hanging-scroll theme — Lan Ying's autumn mountains in mist (Ming) runs the
+   full length of the page and scrolls with it, with no wash over it; the page reads like an inscription written
+   onto the silk. Colours are sampled from the painting: silk, sky grey,
+   ink, vermilion seal, faded azurite.
+   Layered on top of main.css (kept only for the icon fonts and base reset).
    ========================================================================== */
 
 :root {
-  --bg-image: url("../../images/bg/alpine_lake.jpg");
-  --accent: #2d6a8e;          /* glacier blue */
-  --accent-dark: #1f4d68;
-  --ink: #2a2f36;             /* primary text */
-  --ink-soft: #5b6470;        /* secondary text */
-  --heading: #1c2530;
-  --panel: rgba(255, 255, 255, 0.96);   /* near-solid backing so text is always legible */
-  --hairline: rgba(28, 37, 48, 0.10);
-  --radius: 18px;
+  --silk:      #e6dccb;   /* bare silk */
+  --silk-hi:   #f3ede2;   /* snow highlights — used for frames */
+  --ink:       #1c1b17;
+  --ink-2:     #2c2a25;
+  --ink-soft:  #4a463e;
+  --line:      rgba(38, 37, 31, 0.22);
+  --seal:      #b5352b;   /* vermilion seal */
+  --seal-deep: #962a21;
+  --azurite:   #44605f;   /* faded blue-green in the trees */
+
+
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+          Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --cjk: "Noto Serif SC", "Songti SC", "STSong", serif;
+
+  --col: 760px;           /* text column width on desktop */
+  --col-shift: clamp(0px, 8vw, 160px);   /* nudges the column from the left edge toward the middle */
+  --panel: rgba(241, 234, 220, 0.35);    /* translucent silk card behind each section */
 }
 
-/* ---- Fonts ---------------------------------------------------------------- */
-html { font-size: 16px; }
-
-body,
-.page__content p,
-.page__content li,
-.page__content dl,
-.sidebar p,
-.sidebar li,
-.author__urls a,
-.greedy-nav a {
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+/* ---- Base ----------------------------------------------------------------- */
+html { font-size: 16px !important; background: var(--silk) !important; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
   color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  position: relative;
+  /* at least as tall as the painting at full width, so it is never stretched on desktop */
+  min-height: calc(100vw * 3.877);   /* painting aspect: 2880 x 11166 */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1:before, .anchor:before { display: none !important; }   /* old anchor-offset hack */
+h1, h2, h3, h4 { font-family: var(--sans); color: var(--ink); margin: 0; }
+p { margin: 0; }
+a { color: inherit; text-decoration: none; }
+img, video { max-width: 100%; display: block; }
+::selection { background: rgba(181, 53, 43, 0.25); }
+.icon { width: 1em; height: 1em; flex: none; fill: none !important; stroke: currentColor; }
+.sec, #top { scroll-margin-top: 24px; }
 
-body {
-  line-height: 1.7;
-  letter-spacing: 0.005em;
-}
-
-/* ---- Fixed alpine background ---------------------------------------------
-   main.css sets html{background:#fff}, which would cover the fixed bg layer.
-   Force the root transparent so the alpine photo shows through.            */
-html { background: transparent !important; background-color: transparent !important; }
-body { background: transparent !important; }
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  background-color: #e9eef2;   /* fallback before image loads */
-  background-image: var(--bg-image);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-body::after {                  /* cool, airy wash for legibility */
-  content: "";
-  position: fixed;
+/* ---- The painting: covers the whole page and scrolls with it ---------------- */
+.scroll-bg {
+  position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(
-    180deg,
-    rgba(225, 234, 240, 0.22) 0%,
-    rgba(210, 222, 232, 0.38) 45%,
-    rgba(198, 213, 226, 0.55) 100%
-  );
+  overflow: hidden;
+  background: #c9b791;               /* silk tone of this painting */
+}
+/* full width, or wider when the page is taller than the painting at full width (centered, sides cropped) */
+.scroll-bg__inner {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: max(100%, calc(var(--page-h, 0px) / 3.86));   /* a hair wider than the 3.877 aspect so no gap shows at the foot */
+  transform: translateX(-50%);
+}
+.scroll-bg__inner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  margin-bottom: -1px;               /* hide hairline seams between tiles */
+  user-select: none;
+  pointer-events: none;
 }
 
-/* ---- Masthead (top nav) — translucent frosted bar ------------------------ */
-.masthead {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  background: rgba(255, 255, 255, 0.85);
-  -webkit-backdrop-filter: saturate(150%) blur(14px);
-  backdrop-filter: saturate(150%) blur(14px);
-  border-bottom: 1px solid var(--hairline);
-  box-shadow: 0 1px 12px rgba(28, 37, 48, 0.05);
+/* ---- Layout: one text column, set to the left so the inscription and the
+        main peaks on the right stay uncovered --------------------------------- */
+#main.wrap {
+  max-width: none;
+  margin: 0;
+  padding: 0 max(40px, 6vw);
   animation: none;
 }
-.greedy-nav { background: transparent; }
-.greedy-nav a {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--ink);
-  transition: color 0.2s ease;
-}
-.greedy-nav a:hover { color: var(--accent); }
-.greedy-nav .visible-links a:before { background: var(--accent); height: 2px; }
-.masthead__menu-home-item a { font-weight: 600; }
-
-/* ==========================================================================
-   LAYOUT — single centered column (overrides the susy sidebar/float grid)
-   ========================================================================== */
-#main {
-  display: block;
-  max-width: 1080px;
-  margin: 2.5em auto 3.5em;
-  padding: 0 1.1em;
-  animation: intro 0.5s both;
+#main.wrap > * {
+  max-width: var(--col);
+  margin-left: var(--col-shift);
+  margin-right: auto;
 }
 
-/* The profile that used to be a left block becomes a centered hero card */
-.sidebar {
-  display: flow-root !important;
-  float: none !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 auto 1.6em !important;
-  padding: 2.6em 2em 2.2em !important;
-  position: static !important;        /* cancel .sticky */
-  clear: both;
-  opacity: 1 !important;
+/* one translucent card per section (not the hero), separated by gaps */
+.sec,
+.footer__inner > div:first-child {
   background: var(--panel);
-  -webkit-backdrop-filter: saturate(160%) blur(20px);
-  backdrop-filter: saturate(160%) blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.55);
-  border-radius: var(--radius);
-  box-shadow: 0 10px 40px rgba(28, 37, 48, 0.16), 0 2px 8px rgba(28, 37, 48, 0.08);
-  text-align: center;
-}
-
-/* The main content as a frosted card below the hero.
-   main.css floats .page__content (float:left), so the card would collapse
-   to ~0 height and the text would spill onto the background. flow-root
-   makes the card contain its floated content and grow to full height. */
-.page {
-  display: flow-root !important;
-  float: none !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 2.6em 2.8em !important;
-  clear: both;
-  background: var(--panel);
-  -webkit-backdrop-filter: saturate(160%) blur(20px);
-  backdrop-filter: saturate(160%) blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.55);
-  border-radius: var(--radius);
-  box-shadow: 0 10px 40px rgba(28, 37, 48, 0.16), 0 2px 8px rgba(28, 37, 48, 0.08);
-}
-
-@media (max-width: 768px) {
-  #main { margin-top: 1.4em; }
-  .sidebar { padding: 2em 1.3em 1.6em !important; }
-  .page { padding: 1.7em 1.4em !important; }
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(38, 37, 31, 0.1);
+  border-radius: 8px;
+  margin-bottom: 28px;
 }
 
 /* ==========================================================================
-   HERO — big centered avatar + name + role + horizontal links
+   TOP BAR — not sticky, so nothing slides over the painting
    ========================================================================== */
-.profile_box {
-  display: block !important;
-  text-align: center;
-}
-
-.author__avatar {
-  display: block !important;
-  width: auto !important;
-  margin: 0 auto 0.9em !important;
-  text-align: center;
-}
-.author__avatar img {
-  width: 200px !important;
-  height: 200px !important;
-  max-width: 200px !important;
-  min-width: 0 !important;
-  object-fit: cover;
-  border-radius: 50%;
-  padding: 0 !important;
-  border: 5px solid rgba(255, 255, 255, 0.92) !important;
-  box-shadow: 0 10px 30px rgba(28, 37, 48, 0.28);
-}
-
-.author__content {
-  display: block !important;
-  width: 100% !important;
-  padding: 0 !important;
-  text-align: center;
-  line-height: 1.4;
-}
-.sidebar .author__name,
-.author__name {
-  font-family: "Inter", sans-serif;
-  font-size: 2.1em !important;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  color: var(--heading);
-  margin: 0.1em 0 0.05em !important;
-}
-.author__bio {
-  margin: 0 0 0.4em !important;
-  font-size: 1.05em;
-  font-weight: 500;
-  color: var(--accent);
-}
-
-.author__urls-wrapper {
-  display: block !important;
-  width: 100%;
+.topbar { position: relative; z-index: 2; }
+.topbar__inner {
+  max-width: none;
   margin: 0;
-  position: relative !important;
-  z-index: 5 !important;
-}
-.author__urls-wrapper button { display: none !important; }   /* mobile toggle btn */
-
-/* horizontal, centered link row.
-   The base theme sets z-index:-1 here, which (inside the frosted card's
-   stacking context) buries the links behind the card and makes them
-   unclickable. Force them above with relative positioning + positive z. */
-.author__urls {
-  display: flex !important;
-  flex-wrap: wrap;
-  justify-content: center;
+  padding: 22px max(40px, 6vw);
+  display: flex;
   align-items: center;
-  gap: 0.45em 1.4em;
-  position: relative !important;
-  z-index: 5 !important;
-  margin: 0.6em 0 0 !important;
-  padding: 0 !important;
-  border: 0 !important;
-  background: transparent !important;
-  box-shadow: none !important;
+  justify-content: space-between;
+  gap: 24px;
 }
-.author__urls:before, .author__urls:after { display: none !important; }
-.author__urls li {
+.wordmark {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink);
   white-space: nowrap;
-  margin: 0;
-  position: relative;
-  z-index: 5;
 }
-/* the first item is the site description sentence — give it its own row */
-.author__urls li:first-child {
-  flex-basis: 100%;
-  white-space: normal;
-  margin: 0 0 0.5em !important;
-  color: var(--ink-soft);
-  font-size: 1.02em;
+.topbar__nav { display: flex; gap: 22px; flex-wrap: wrap; justify-content: flex-end; }
+.topbar__nav a {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  padding: 4px 0;
+  border-bottom: 1.5px solid transparent;
+  transition: border-color .15s ease, color .15s ease;
 }
-.author__urls li:first-child div { margin: 0 !important; }
-.author__urls a {
+.topbar__nav a:hover { color: var(--seal-deep); border-bottom-color: var(--seal); }
+.topbar__left { display: flex; align-items: center; gap: 22px; }
+
+/* language switch: EN <-> 中文 */
+.lang-switch {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--ink);
+  border: 1.5px solid rgba(38, 37, 31, 0.55);
+  border-radius: 2px;
+  padding: 3px 11px;
+  white-space: nowrap;
+  transition: color .15s ease, border-color .15s ease;
+}
+.lang-switch:hover { color: var(--seal-deep); border-color: var(--seal); }
+
+/* ==========================================================================
+   HERO
+   ========================================================================== */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 36px;
+  align-items: end;
+  padding: 40px 0 44px;
+}
+.eyebrow {
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--seal-deep);
+  margin-top: 14px;
+}
+.hero__name {
+  font-weight: 700;
+  font-size: clamp(2.2rem, 4vw, 2.9rem);
+  line-height: 1.04;
+  letter-spacing: -0.03em;
+}
+.hero__zh {
+  font-family: var(--cjk);
+  font-weight: 600;
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  line-height: 1.2;
+  color: var(--ink-2);
+  margin-top: 10px;
+  letter-spacing: 0.12em;
+}
+/* Chinese page: the Chinese name leads, the English name follows */
+.hero__name--zh {
+  font-family: var(--cjk);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.hero__alt {
+  font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink-2);
+  margin-top: 8px;
+}
+html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600; letter-spacing: 0; }
+.hero__lede {
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-width: 34ch;
+  margin-top: 22px;
+}
+.hero__links {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.hero__links li { margin: 0; }
+
+/* outlined "pills" — thin ink rules, no fill, so the silk shows through */
+.pill {
   display: inline-flex;
   align-items: center;
-  gap: 0.35em;
-  color: var(--ink-soft);
-  font-size: 0.98em;
-  font-weight: 500;
-  text-decoration: none;
-  position: relative;
-  z-index: 5;
-  pointer-events: auto !important;
+  gap: 8px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--ink);
+  border: 1.5px solid rgba(38, 37, 31, 0.55);
+  padding: 6px 14px;
+  border-radius: 2px;
+  transition: color .15s ease, border-color .15s ease, background .15s ease;
 }
-.author__urls a:hover { color: var(--accent); text-decoration: none; }
-.author__urls .fa, .author__urls .fab, .author__urls .fas, .author__urls .ai {
-  color: var(--accent);
+.pill:hover { color: var(--seal-deep); border-color: var(--seal); }
+.pill i, .pill .x-glyph { color: var(--seal); font-size: 0.95em; width: 1em; text-align: center; }
+.pill--solid { background: var(--ink); color: var(--silk-hi); border-color: var(--ink); }
+.pill--solid i { color: #e8a79d; }
+.pill--solid:hover { background: var(--seal-deep); border-color: var(--seal-deep); color: #fff; }
+.pill--sm { font-size: 0.78rem; padding: 4px 11px; gap: 6px; }
+.pill--sm .icon { transition: transform .15s ease; }
+.pill--sm:hover .icon { transform: translateX(2px); }
+
+/* portrait: the photo on its own, no mount */
+.portrait { margin: 0; }
+.portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 4px;
 }
-.author__urls_sm { display: none !important; }
 
 /* ==========================================================================
-   TYPOGRAPHY — flat, airy headings
+   SECTIONS
    ========================================================================== */
-.page__content h1,
-.page__content h2,
-.page__content h3 {
-  color: var(--heading);
+.sec { padding: 28px 34px 14px; }
+.sec__head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin: 0 0 22px;
+  padding-bottom: 12px;
+  border-bottom: 1.5px solid var(--ink);
+}
+.sec__num {
+  font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: 0.08em;
+  color: var(--seal);
 }
-.page__content h1 {
-  font-size: 1.55em;
-  margin-top: 1.7em;
-  padding-bottom: 0.4em;
-  border-bottom: 1px solid var(--hairline);
-}
-.page__content h1:first-of-type { margin-top: 0.3em; }
-.page__content p,
-.page__content li { font-size: 1em; color: var(--ink); }
-
-/* First-line indent for the intro paragraphs (direct children only), replacing
-   the old "$~~~~$" MathJax indent hack that flashed raw text before rendering. */
-.page__content > p { text-indent: 2em; }
-
-/* ---- Links --------------------------------------------------------------- */
-a { color: var(--accent); }
-a:hover { color: var(--accent-dark); }
-.page__content a { color: var(--accent); }
-
-/* ---- Publication / paper boxes — clean flat cards ------------------------ */
-.paper-box {
-  border-bottom: none;
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid var(--hairline);
-  border-radius: 12px;
-  padding: 1.6em;
-  margin-bottom: 1.4em;
-  box-shadow: 0 2px 10px rgba(28, 37, 48, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.paper-box:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(28, 37, 48, 0.12);
-}
-.paper-box .paper-box-image img,
-.paper-box .paper-box-image video {
-  box-shadow: 0 4px 14px rgba(28, 37, 48, 0.18) !important;
-  border-radius: 6px;
-}
-.badge {
-  background: var(--accent) !important;
-  color: #fff !important;
-  border-radius: 6px;
-  padding: 0.25em 0.7em;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+.sec__head h2 {
+  font-weight: 700;
+  font-size: clamp(1.45rem, 2.6vw, 1.85rem);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  border: 0;
+  padding: 0;
 }
 
-/* ---- Fix overlapping anchor hack ----------------------------------------
-   about.md has <span id="about-me">; the theme offsets it with a 10em-tall
-   :before pseudo + negative margins, which bled upward and covered the hero
-   social links (making them unclickable). Replace with scroll-margin-top.   */
-.page__content #about-me {
-  margin-top: 0 !important;
-  scroll-margin-top: 80px;
+.prose p {
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: var(--ink);
+  font-weight: 500;
+  margin: 0 0 1em;
 }
-.page__content #about-me:before { display: none !important; }
+.prose strong { font-weight: 700; }
+.prose em { font-style: italic; }
 
-/* ---- Misc ---------------------------------------------------------------- */
-hr { border-color: var(--hairline); }
-::selection { background: rgba(45, 106, 142, 0.22); }
+/* ---- Timeline (education & research) ------------------------------------ */
+.timeline { list-style: none; margin: 0; padding: 0; }
+.timeline .entry {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  margin: 0;
+}
+
+/* Logo: transparent-background PNGs sit straight on the card */
+.stamp {
+  width: 52px; height: 52px;
+  display: grid;
+  place-items: center;
+}
+.stamp img { width: 100%; height: 100%; object-fit: contain; }
+.entry__org { font-size: 1.02rem; font-weight: 700; line-height: 1.35; }
+.entry__place { font-weight: 500; color: var(--ink-soft); margin-left: 8px; font-size: 0.9em; white-space: nowrap; }
+.entry__role { color: var(--ink-2); font-size: 0.98rem; font-weight: 500; margin-top: 2px; }
+.entry__role a { font-weight: 700; color: var(--ink); border-bottom: 1.5px solid var(--seal); }
+.entry__role a:hover { color: var(--seal-deep); }
+.entry__date {
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+/* ---- Publications -------------------------------------------------------- */
+.pubs { display: grid; }
+.pub {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 26px;
+  align-items: start;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+}
+.pub__media {
+  position: relative;
+  background: #fff;               /* figures have white backgrounds: mount them on white */
+  padding: 8px;
+  outline: 1px solid rgba(38, 37, 31, 0.3);
+  outline-offset: -4px;
+}
+.pub__media img, .pub__media video { width: 100%; max-height: 220px; object-fit: contain; margin: 0 auto; }
+.tag {
+  position: absolute;
+  top: -9px;
+  left: 10px;
+  z-index: 2;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  background: var(--seal);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+.pub__title { font-weight: 700; font-size: 1.14rem; line-height: 1.35; letter-spacing: -0.01em; margin-bottom: 8px; }
+.pub__authors { font-size: 0.95rem; color: var(--ink-2); line-height: 1.6; font-weight: 500; }
+.pub__authors a { border-bottom: 1px solid rgba(38, 37, 31, 0.35); }
+.pub__authors a:hover { color: var(--seal-deep); border-bottom-color: var(--seal); }
+.pub__authors .me { font-weight: 700; color: var(--ink); border-bottom: 2px solid var(--seal); }
+.pub__note { font-size: 0.82rem; color: var(--ink-soft); margin-top: 2px; }
+.pub__venue { font-size: 0.95rem; color: var(--ink-2); margin-top: 8px; font-weight: 500; }
+.pub__venue strong { font-weight: 700; color: var(--ink); }
+.pub__links { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* ---- Honors -------------------------------------------------------------- */
+.honors { list-style: none; margin: 0; padding: 0; }
+.honors li {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr);
+  gap: 18px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--line);
+  margin: 0;
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1.55;
+}
+.honors time { font-size: 0.86rem; font-weight: 700; color: var(--ink-soft); font-variant-numeric: tabular-nums; padding-top: 2px; }
+.honors a { font-weight: 700; border-bottom: 1.5px solid var(--seal); }
+.honors a:hover { color: var(--seal-deep); }
+.matte {
+  margin: 12px 0 4px;
+  background: #fff;
+  padding: 8px;
+  outline: 1px solid rgba(38, 37, 31, 0.3);
+  outline-offset: -4px;
+  max-width: 340px;
+}
+
+/* ==========================================================================
+   FOOTER — a colophon on the silk, no band
+   ========================================================================== */
+.footer { margin-top: 0; }
+.footer__inner {
+  max-width: none;
+  margin: 0;
+  padding: 0 max(40px, 6vw) 64px;
+}
+.footer__inner > div:first-child,
+.footer__map {
+  max-width: var(--col);
+  margin-left: var(--col-shift);
+  margin-right: auto;
+}
+.footer__inner > div:first-child { padding: 20px 34px; }
+.footer__name { font-weight: 700; font-size: 1.1rem; }
+.footer__name span { font-family: var(--cjk); font-weight: 600; font-size: 1em; letter-spacing: 0.1em; margin-left: 6px; color: var(--ink-2); }
+.footer__meta { font-size: 0.9rem; font-weight: 500; color: var(--ink-2); margin-top: 4px; }
+.footer__meta a { border-bottom: 1px solid var(--seal); }
+.footer__credit { font-size: 0.82rem; color: var(--ink-soft); margin-top: 10px; font-weight: 500; }
+.footer__credit a { border-bottom: 1px solid rgba(38, 37, 31, 0.35); }
+.footer__map { margin-top: 18px; }
+.footer__map > * { max-width: 260px; }
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+@media (max-width: 1000px) {
+  #main.wrap > *, .footer__inner > div:first-child, .footer__map { max-width: none; margin-left: 0; margin-right: 0; }
+}
+@media (max-width: 760px) {
+  .topbar__nav { display: none; }
+  .hero { grid-template-columns: 1fr; gap: 28px; padding: 24px 0 32px; align-items: start; }
+  .sec { padding: 22px 20px 10px; }
+  .footer__inner > div:first-child { padding: 18px 20px; }
+  .portrait { width: 220px; order: -1; }
+  .pub { grid-template-columns: 1fr; gap: 14px; }
+  .pub__media { max-width: 360px; }
+}
+@media (max-width: 640px) {
+  #main.wrap, .topbar__inner, .footer__inner { padding-left: 16px; padding-right: 16px; }
+  .topbar__inner { padding-top: 16px; padding-bottom: 16px; }
+  .timeline .entry { grid-template-columns: 44px minmax(0, 1fr); gap: 2px 14px; align-items: start; }
+  .stamp { width: 44px; height: 44px; grid-row: 1 / span 2; }
+  .entry__date { grid-column: 2; grid-row: 1; text-align: left; font-size: 0.76rem; }
+  .entry__body { grid-column: 2; }
+  .entry__place { display: block; margin-left: 0; }
+  .honors li { grid-template-columns: 1fr; gap: 0; }
+}

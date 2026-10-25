@@ -1,0 +1,66 @@
+# Publications, newest first.
+# `authors`, `venue` and `note` are Markdown. Wrap your own name in <span class="me">…</span>.
+# Use either `image` or `video` for the teaser. `links` render as pill buttons.
+# *_zh fields (note_zh, venue_zh, authors_zh, link label_zh) are used on the Chinese page.
+- title: "ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control"
+  badge: "arXiv 2026"
+  image: "images/ecomem-teaser.png"
+  image_alt: "ECoMEM: Explicit Concept Memory overview"
+  authors: '<span class="me">Yize Liu</span>, [Ke Wang](https://kewang.ai/), [Mac Schwager](https://web.stanford.edu/~schwager/), [Yiqing Xu†](https://eeching.github.io/), [Jiajun Wu†](https://www.jiajunwu.net/).'
+  note: "†Equal advising."
+  note_zh: "†共同指导。"
+  venue: "**arXiv preprint**, arXiv:2610.00801 (2026)."
+  venue_zh: "**arXiv 预印本**，arXiv:2610.00801（2026）。"
+  links:
+    - label: "Paper"
+      label_zh: "论文"
+      url: "https://arxiv.org/abs/2610.00801"
+    - label: "Project Website"
+      label_zh: "项目主页"
+      url: "https://ecomem.github.io/"
+
+- title: "T²Mem: Learning Test-Time Memory for Robotics"
+  badge: "arXiv 2026"
+  video: "images/t2mem-introduction.mp4"
+  image_alt: "T²Mem introduction"
+  authors: '<span class="me">Yize Liu</span>, Huang Huang, Yining Hong, Zijian Du, Zhi Cao, Li Fei-Fei, Jiajun Wu.'
+  venue: "**arXiv preprint**, arXiv:2609.36720 (2026)."
+  venue_zh: "**arXiv 预印本**，arXiv:2609.36720（2026）。"
+  links:
+    - label: "Paper"
+      label_zh: "论文"
+      url: "https://arxiv.org/abs/2609.36720"
+    - label: "Project Website"
+      label_zh: "项目主页"
+      url: "https://yzliu84.github.io/T2MEM-project/"
+
+- title: "Bio-plausible Reconfigurable Spiking Neuron for Neuromorphic Computing"
+  badge: "Science Advances"
+  image: "images/bu1.png"
+  image_alt: "Bio-plausible reconfigurable spiking neuron"
+  authors: 'Yu Xiao†, <span class="me">Yize Liu† (Contribute equally)</span>, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, [Qian Zheng](https://person.zju.edu.cn/en/zq#0), [Huajin Tang](https://person.zju.edu.cn/en/0018196), [Peng Lin&#42;](https://person.zju.edu.cn/en/linpeng), [Wei Kong&#42;](https://www.konglab-westlake.com/about-5), [Gang Pan&#42;](https://person.zju.edu.cn/en/gpan).'
+  authors_zh: 'Yu Xiao†, <span class="me">Yize Liu†（共同一作）</span>, Bihua Zhang†, Peng Chen, Huaze Zhu, Enhui He, Jiayi Zhao, Wenju Huo, Xiaofei Jin, Xumeng Zhang, Hao Jiang, De Ma, [Qian Zheng](https://person.zju.edu.cn/en/zq#0), [Huajin Tang](https://person.zju.edu.cn/en/0018196), [Peng Lin&#42;](https://person.zju.edu.cn/en/linpeng), [Wei Kong&#42;](https://www.konglab-westlake.com/about-5), [Gang Pan&#42;](https://person.zju.edu.cn/en/gpan).'
+  venue: "**Science Advances**. 11, eadr6733 (2025)."
+  links:
+    - label: "Science Advances"
+      label_zh: "Science Advances 论文页"
+      url: "https://www.science.org/doi/10.1126/sciadv.adr6733"
+
+- title: "Variation-resilient Spike-timing-dependent Plasticity in Memristors Using Bursting Neuron Circuit"
+  badge: "NCE"
+  image: "images/nce.png"
+  image_alt: "Variation-resilient STDP in memristors"
+  authors: '<span class="me">Yize Liu</span>, Jiayi Zhao, Yu Xiao, Peng Chen&#42;, Haisong Chen, Enhui He, Peng Lin&#42; and Gang Pan&#42;'
+  venue: "Neuromorphic Computing and Engineering, 5 024013"
+  links:
+    - label: "Neuromorphic Computing and Engineering"
+      label_zh: "期刊论文页"
+      url: "https://iopscience.iop.org/article/10.1088/2634-4386/add9c0"
+
+- title: "ReALSM: ReRAM-Assisted Liquid State Machine Architecture for Large-Scale and Low-Power Edge Computing"
+  badge: "ICCAD 2024"
+  image: "images/lsmtu3.svg"
+  image_alt: "ReALSM architecture"
+  authors: '<span class="me">Yize Liu</span>, Zhichu Ren, Liang Zhao&#42;'
+  venue: "**2024 ACM/IEEE International Conference on Computer-Aided Design**, Student Research Competition"
+  venue_zh: "**2024 ACM/IEEE International Conference on Computer-Aided Design**，学生研究竞赛"

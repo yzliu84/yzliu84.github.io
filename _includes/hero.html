@@ -1,0 +1,26 @@
+{% assign author = site.author %}
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+<section class="hero" id="top">
+  <div class="hero__text">
+    {% if page.lang == "zh" %}
+    <h1 class="hero__name hero__name--zh">{{ author.name_zh }}</h1>
+    <p class="hero__alt">{{ author.display_name }}</p>
+    {% else %}
+    <h1 class="hero__name">{{ author.display_name }}</h1>
+    <p class="hero__zh">{{ author.name_zh }}</p>
+    {% endif %}
+    <p class="eyebrow">{{ t.headline }}</p>
+    <p class="hero__lede">{{ t.tagline }}</p>
+    <ul class="hero__links">
+      {% if author.email %}<li><a class="pill pill--solid" href="mailto:{{ author.email }}"><i class="fas fa-envelope" aria-hidden="true"></i>{{ author.email }}</a></li>{% endif %}
+      {% if author.googlescholar %}<li><a class="pill" href="{{ author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a></li>{% endif %}
+      {% if author.uri %}<li><a class="pill" href="{{ author.uri }}"><i class="fas fa-link" aria-hidden="true"></i>{{ t.profile }}</a></li>{% endif %}
+      {% if author.linkedin %}<li><a class="pill" href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>{% endif %}
+      {% if author.twitter %}<li><a class="pill" href="https://x.com/{{ author.twitter }}"><span class="x-glyph" aria-hidden="true">𝕏</span>X</a></li>{% endif %}
+    </ul>
+  </div>
+
+  <figure class="portrait">
+    <img src="{{ author.avatar }}" alt="{{ author.display_name }}">
+  </figure>
+</section>

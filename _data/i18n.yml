@@ -1,0 +1,53 @@
+# Interface strings for the English (index) and Chinese (zh.html) pages.
+# A page picks its language with `lang: en` / `lang: zh` in its front matter.
+en:
+  html_lang: "en"
+  switch_label: "中文"
+  switch_href: "zh.html"
+  switch_lang: "zh"
+  name: "Yize (Henry) Liu"
+  name_alt: "刘毅泽"
+  headline: "PhD Student · Electrical Engineering · Stanford University"
+  tagline: "Physical AI, Embodied Agent, Foundation Model for Robotics"
+  profile: "Stanford Profile"
+  nav:
+    about: "About"
+    experience: "Experience"
+    publications: "Publications"
+    honors: "Honors"
+    interests: "Interests"
+  sec:
+    about: "About"
+    education: "Education"
+    research: "Research Experience"
+    publications: "Publications"
+    honors: "Honors and Awards"
+    interests: "Personal Interests"
+  supervised_by: ", supervised by "
+  credit: 'Background: Lan Ying 蓝瑛, <em>Clearing Autumn Mists in the Chu Mountains</em> 楚山秋霁 (Ming dynasty), <a href="https://www.clevelandart.org/art/1971.231">Cleveland Museum of Art</a>, CC0.'
+
+zh:
+  html_lang: "zh-CN"
+  switch_label: "EN"
+  switch_href: "./"
+  switch_lang: "en"
+  name: "刘毅泽"
+  name_alt: "Yize (Henry) Liu"
+  headline: "斯坦福大学 · 电子工程 · 博士研究生"
+  tagline: "物理人工智能、具身智能体、机器人基础模型"
+  profile: "斯坦福个人主页"
+  nav:
+    about: "关于"
+    experience: "经历"
+    publications: "论文"
+    honors: "荣誉"
+    interests: "兴趣"
+  sec:
+    about: "关于我"
+    education: "教育经历"
+    research: "科研经历"
+    publications: "论文发表"
+    honors: "荣誉奖项"
+    interests: "个人兴趣"
+  supervised_by: "，导师："
+  credit: '背景：蓝瑛《楚山秋霁》（明代），<a href="https://www.clevelandart.org/art/1971.231">克利夫兰美术馆</a>藏，CC0 公有领域。'

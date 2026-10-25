@@ -1,33 +1,82 @@
 ---
 layout: compress
 ---
-
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="{{ t.html_lang }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <link rel="alternate" hreflang="{{ site.data.i18n[t.switch_lang].html_lang }}" href="{{ t.switch_href }}">
   </head>
 
   <body>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
-        </div>
-      </article>
+    <!-- Background: Lan Ying, "Clearing Autumn Mists in the Chu Mountains" (Ming dynasty), Cleveland Museum of Art, CC0.
+         Spans the full page and scrolls with the content. Split into six stacked tiles so the top loads first. -->
+    <div class="scroll-bg" aria-hidden="true">
+      <div class="scroll-bg__inner">
+        {% for i in (1..6) %}<img src="images/bg/chushan/{{ i }}.jpg?v=2" width="2880" height="{% if i == 1 %}1861{% elsif i == 6 %}1856{% else %}1862{% endif %}" alt=""{% if i > 1 %} loading="lazy"{% endif %}>{% endfor %}
+      </div>
     </div>
 
-    {% include scripts.html %}
+    {% include browser-upgrade.html %}
+
+    <header class="topbar">
+      <div class="topbar__inner">
+        <div class="topbar__left">
+          <a class="lang-switch" href="{{ t.switch_href }}" target="_self" hreflang="{{ site.data.i18n[t.switch_lang].html_lang }}" lang="{{ site.data.i18n[t.switch_lang].html_lang }}">{{ t.switch_label }}</a>
+          <a class="wordmark" href="#top" target="_self">Yize Liu</a>
+        </div>
+        <nav class="topbar__nav" aria-label="Sections">
+          {% for link in site.data.navigation.main %}
+            <a href="{{ link.url }}" target="_self">{{ t.nav[link.key] }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="wrap" role="main">
+      {% include hero.html %}
+      {{ content }}
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div>
+          <p class="footer__name">{{ t.name }} <span>{{ t.name_alt }}</span></p>
+          <p class="footer__meta">{{ t.headline }} · <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+          <p class="footer__credit">{{ t.credit }}</p>
+        </div>
+        <div class="footer__map">
+          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=2b2f2c&w=a&t=n&d=fpRwPZGVmUyfZYB0X79YKZgraC2Xd88xITIplzf5kjk&co=e4e1d6&cmo=b5352b&cmn=2f5d62'></script>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Size the end of the page and the painting together:
+      // pad the footer so the text finishes above the scholar on the bridge (lowest ~15% of the scroll),
+      // then tell CSS the page height so the painting can cover it without stretching.
+      (function () {
+        var footer = document.querySelector('.footer__inner');
+        var root = document.documentElement;
+        function fit() {
+          var pad = parseFloat(getComputedStyle(footer).paddingBottom) || 0;
+          var end = footer.getBoundingClientRect().bottom + window.scrollY - pad;
+          var want = Math.max(64, Math.ceil(end / 0.8 - end));
+          if (Math.abs(want - pad) > 1) footer.style.paddingBottom = want + 'px';
+          root.style.setProperty('--page-h', root.scrollHeight + 'px');
+        }
+        // re-fit whenever the page height changes (fonts, video metadata, the visitor map loading in)
+        if (window.ResizeObserver) new ResizeObserver(fit).observe(document.body);
+        window.addEventListener('load', fit);
+        fit();
+      })();
+    </script>
+
+    {% comment %} main.min.js (greedy nav) and the Scholar-stats fetcher target the old masthead/sidebar markup, so only analytics is kept {% endcomment %}
+    {% include analytics.html %}
 
   </body>
 </html>

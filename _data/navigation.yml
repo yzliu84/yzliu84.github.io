@@ -1,4 +1,12 @@
-# main links links
+# Top bar links (anchors on the home page). `key` looks up the label in _data/i18n.yml.
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  - key: "about"
+    url: "#about-me"
+  - key: "experience"
+    url: "#experience"
+  - key: "publications"
+    url: "#publications"
+  - key: "honors"
+    url: "#honors"
+  - key: "interests"
+    url: "#interests"

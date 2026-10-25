@@ -22,8 +22,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Yize (Henry) Liu 刘毅泽"
-  avatar           : "images/head4.JPG"
+  avatar           : "images/portrait.jpg"
   bio              : "Stanford University"
+  # Used by the redesigned hero (_includes/hero.html); headline/tagline live in _data/i18n.yml
+  display_name     : "Yize (Henry) Liu"
+  name_zh          : "刘毅泽"
   location         :
   employer         :
   pubmed           : 

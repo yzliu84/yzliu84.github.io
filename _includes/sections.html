@@ -1,0 +1,90 @@
+{% comment %}
+  Education, research, publications and honors, rendered from _data/*.yml.
+  Shared by the English (index) and Chinese (zh.html) pages; on the Chinese page each
+  field uses its *_zh twin when present and falls back to English otherwise.
+{% endcomment %}
+{% assign zh = false %}{% if page.lang == "zh" %}{% assign zh = true %}{% endif %}
+{% assign t = site.data.i18n[page.lang] | default: site.data.i18n.en %}
+
+<section class="sec" id="experience">
+{% include section-head.html num="02" title=t.sec.education %}
+<ol class="timeline">
+{% for e in site.data.education %}
+  {% if zh %}{% assign org = e.org_zh | default: e.org %}{% assign place = e.place_zh | default: e.place %}{% assign date = e.date_zh | default: e.date %}{% assign role = e.role_zh | default: e.role %}
+  {% else %}{% assign org = e.org %}{% assign place = e.place %}{% assign date = e.date %}{% assign role = e.role %}{% endif %}
+  <li class="entry">
+    <span class="stamp"><img src="{{ e.logo }}" alt="{{ e.org }} logo" loading="lazy"></span>
+    <div class="entry__body">
+      <h3 class="entry__org">{{ org }}<span class="entry__place">{{ place }}</span></h3>
+      <p class="entry__role">{{ role }}</p>
+    </div>
+    <time class="entry__date">{{ date }}</time>
+  </li>
+{% endfor %}
+</ol>
+</section>
+
+<section class="sec" id="research">
+{% include section-head.html num="03" title=t.sec.research %}
+<ol class="timeline">
+{% for e in site.data.research %}
+  {% if zh %}{% assign org = e.org_zh | default: e.org %}{% assign place = e.place_zh | default: e.place %}{% assign date = e.date_zh | default: e.date %}{% assign role = e.role_zh | default: e.role %}{% assign advisors = e.advisors_zh | default: e.advisors %}
+  {% else %}{% assign org = e.org %}{% assign place = e.place %}{% assign date = e.date %}{% assign role = e.role %}{% assign advisors = e.advisors %}{% endif %}
+  <li class="entry">
+    <span class="stamp"><img src="{{ e.logo }}" alt="{{ e.org }} logo" loading="lazy"></span>
+    <div class="entry__body">
+      <h3 class="entry__org">{{ org }}<span class="entry__place">{{ place }}</span></h3>
+      <p class="entry__role">{{ role }}{{ t.supervised_by }}{{ advisors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+    </div>
+    <time class="entry__date">{{ date }}</time>
+  </li>
+{% endfor %}
+</ol>
+</section>
+
+<section class="sec" id="publications">
+{% include section-head.html num="04" title=t.sec.publications %}
+<div class="pubs">
+{% for p in site.data.publications %}
+  {% if zh %}{% assign authors = p.authors_zh | default: p.authors %}{% assign note = p.note_zh | default: p.note %}{% assign venue = p.venue_zh | default: p.venue %}
+  {% else %}{% assign authors = p.authors %}{% assign note = p.note %}{% assign venue = p.venue %}{% endif %}
+  <article class="pub">
+    <div class="pub__media">
+      <span class="tag">{{ p.badge }}</span>
+      {% if p.video %}
+      <video src="{{ p.video }}" aria-label="{{ p.image_alt }}" autoplay muted loop playsinline controls preload="metadata">Your browser does not support video. <a href="{{ p.video }}">Watch the introduction</a>.</video>
+      {% else %}
+      <img src="{{ p.image }}" alt="{{ p.image_alt }}" loading="lazy">
+      {% endif %}
+    </div>
+    <div class="pub__body">
+      <h3 class="pub__title">{{ p.title }}</h3>
+      <p class="pub__authors">{{ authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+      {% if note %}<p class="pub__note">{{ note }}</p>{% endif %}
+      <p class="pub__venue">{{ venue | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+      {% if p.links %}
+      <p class="pub__links">
+        {% for l in p.links %}{% if zh %}{% assign label = l.label_zh | default: l.label %}{% else %}{% assign label = l.label %}{% endif %}<a class="pill pill--sm" href="{{ l.url }}">{{ label }}{% include icon.html name="arrow" %}</a>{% endfor %}
+      </p>
+      {% endif %}
+    </div>
+  </article>
+{% endfor %}
+</div>
+</section>
+
+<section class="sec" id="honors">
+{% include section-head.html num="05" title=t.sec.honors %}
+<ul class="honors">
+{% for h in site.data.honors %}
+  {% if zh %}{% assign text = h.text_zh | default: h.text %}{% else %}{% assign text = h.text %}{% endif %}
+  <li>
+    <time>{{ h.date }}</time>
+    <div>
+      {{ text | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+      {% if h.image %}<figure class="matte matte--award"><img src="{{ h.image }}" alt="{{ h.image_alt }}" loading="lazy"></figure>{% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ul>
+</section>
