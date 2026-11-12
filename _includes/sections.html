@@ -62,7 +62,7 @@
       <p class="pub__authors">{{ authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
       {% if note %}<p class="pub__note">{{ note }}</p>{% endif %}
       <p class="pub__venue">{{ venue | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
-      {% if p.award %}<p class="award-highlight">{{ p.award }}</p>{% endif %}
+      {% if p.award %}<p class="award-highlight"><strong><span aria-hidden="true">🏆</span> {{ p.award }}</strong></p>{% endif %}
       {% if p.links %}
       <p class="pub__links">
         {% for l in p.links %}{% if zh %}{% assign label = l.label_zh | default: l.label %}{% else %}{% assign label = l.label %}{% endif %}<a class="pill pill--sm" href="{{ l.url }}">{{ label }}{% include icon.html name="arrow" %}</a>{% endfor %}

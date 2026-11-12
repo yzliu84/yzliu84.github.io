@@ -1,6 +1,7 @@
 # Honors and awards, newest first. `text` is Markdown; `image` is optional.
 # `text_zh` is used on the Chinese page (zh.html).
-- text: "Best Paper Award of the Conference on Robot Learning (CoRL) · Memory"
+- date: "2026.11"
+  text: "Best Paper Award of the Conference on Robot Learning (CoRL) · Memory"
 - date: "2024.12"
   text: "Yuelun Scholarship."
   text_zh: "Yuelun 奖学金。"

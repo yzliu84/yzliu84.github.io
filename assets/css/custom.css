@@ -453,4 +453,5 @@ html[lang^="zh"] .footer__name span { font-family: var(--sans); font-weight: 600
   .entry__place { display: block; margin-left: 0; }
   .honors li { grid-template-columns: 1fr; gap: 0; }
 }
-.award-highlight { color: #b83227; font-weight: 700; }
+.pub__body .award-highlight,
+.pub__body .award-highlight strong { color: #b83227; font-weight: 700; }
