@@ -22,7 +22,7 @@
 
 - title: "T²Mem: Learning Test-Time Memory for Robotics"
   badge: "arXiv 2026"
-  video: "images/t2mem-introduction.mp4"
+  image: "images/t2mem-introduction.gif"
   image_alt: "T²Mem introduction"
   authors: '<span class="me">Yize Liu</span>, Huang Huang, Yining Hong, Zijian Du, Zhi Cao, Li Fei-Fei, Jiajun Wu.'
   venue: "**arXiv preprint**, arXiv:2609.36720 (2026)."
