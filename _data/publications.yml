@@ -4,6 +4,7 @@
 # *_zh fields (note_zh, venue_zh, authors_zh, link label_zh) are used on the Chinese page.
 - title: "ECoMEM: Explicit Concept Memory for Memory-Dependent Robot Control"
   badge: "arXiv 2026"
+  award: "Best Paper Award of the Conference on Robot Learning (CoRL) · Memory"
   image: "images/ecomem-teaser.png"
   image_alt: "ECoMEM: Explicit Concept Memory overview"
   authors: '<span class="me">Yize Liu</span>, [Ke Wang](https://kewang.ai/), [Mac Schwager](https://web.stanford.edu/~schwager/), [Yiqing Xu†](https://eeching.github.io/), [Jiajun Wu†](https://www.jiajunwu.net/).'
